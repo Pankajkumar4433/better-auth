@@ -103,7 +103,8 @@ export function EnterprisePageClient() {
 				},
 			});
 			if (!response.ok) {
-				const { message } = await response.json();
+				const errorData = (await response.json()) as { message?: string };
+				const message = errorData.message || "An error occurred";
 				if (response.status === 422) {
 					form.setError("email", { message });
 					return;
