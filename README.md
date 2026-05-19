@@ -1,41 +1,31 @@
-<div align="center">
-  <picture>
-    <source srcset="./banner-dark.png" media="(prefers-color-scheme: dark)"/>
-    <source srcset="./banner-light.png" media="(prefers-color-scheme: light)"/>
-    <img src="./banner-light.png" alt="Better Auth Logo"/>
-  </picture>
+# Better Auth - UI
 
-  [![npm](https://img.shields.io/npm/dm/better-auth?style=flat&colorA=000000&colorB=000000)](https://npm.chart.dev/better-auth?primary=neutral&gray=neutral&theme=dark)
-  [![npm version](https://img.shields.io/npm/v/better-auth.svg?style=flat&colorA=000000&colorB=000000)](https://www.npmjs.com/package/better-auth)
-  [![GitHub stars](https://img.shields.io/github/stars/better-auth/better-auth?style=flat&colorA=000000&colorB=000000)](https://github.com/better-auth/better-auth/stargazers)
+This is the extracted UI portion of the Better Auth project, now moved to the project root for easy access and standalone development.
 
-  <p>
-    <a href="https://discord.gg/better-auth">Discord</a>
-    ·
-    <a href="https://better-auth.com">Website</a>
-    ·
-    <a href="https://github.com/better-auth/better-auth/issues">Issues</a>
-  </p>
-</div>
+## How to run the UI locally
 
-## Better Auth
+1.  **Install dependencies**:
+    ```bash
+    npm install  # or pnpm install / yarn install
+    ```
 
-Better Auth is a framework-agnostic authentication (and authorization) framework for TypeScript. It provides a comprehensive set of features out of the box and includes a plugin ecosystem that simplifies adding advanced functionalities with minimal code in a short amount of time. Whether you need 2FA, multi-tenant support, or other complex features, it lets you focus on building your actual application instead of reinventing the wheel.
+2.  **Start the development server**:
+    ```bash
+    npm run dev
+    ```
 
-### Why Better Auth
+3.  **Search Functionality**:
+    The UI uses Typesense for search. If you have your own Typesense server, you can configure it via environment variables in `.env`. If not configured, the UI is designed to gracefully fall back to a dummy client as seen in `components/search-dialog.tsx`.
 
-Authentication in the TypeScript ecosystem is a half-solved problem. Other open-source libraries often require a lot of additional code for anything beyond basic authentication. Rather than just pushing third-party services as the solution, I believe we can do better as a community—hence, Better Auth.
+## Project Structure
 
-## Contribution
+- **root**: All frontend/UI code (Next.js, Fumadocs).
+- **archive/**: All original backend, server-side code, database logic, and API logic that were removed.
 
-Better Auth is a free and open source project licensed under the [MIT License](./LICENSE.md). You are free to do whatever you want with it.
+## Archived Backend
 
-You could help continuing its development by:
+The original backend logic and original root configuration files are safely preserved in the `archive/` directory.
 
-- [Contribute to the source code](./CONTRIBUTING.md)
-- [Suggest new features and report issues](https://github.com/better-auth/better-auth/issues)
+## License
 
-## Security
-If you discover a security vulnerability within Better Auth, please send an e-mail to [security@better-auth.com](mailto:security@better-auth.com).
-
-All reports will be promptly addressed, and you'll be credited accordingly.
+This project preserves the original MIT License (available in `archive/root_config/LICENSE.md`).

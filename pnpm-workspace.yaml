@@ -1,8 +1,5 @@
 packages:
-  - packages/**
-  - docs
-  - e2e/**
-  - test
+  - .
 
 overrides:
   axios: '>=1.15.2 <2'
@@ -91,9 +88,6 @@ allowBuilds:
 linkWorkspacePackages: true
 
 minimumReleaseAge: 1440
-
-patchedDependencies:
-  '@changesets/assemble-release-plan': patches/@changesets__assemble-release-plan.patch
 
 trustPolicy: no-downgrade
 
