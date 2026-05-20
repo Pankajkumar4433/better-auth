@@ -621,7 +621,7 @@ export function StaggeredNavFiles() {
 									href={item.href}
 									target={item.external ? "_blank" : undefined}
 									rel={item.external ? "noreferrer" : undefined}
-									className={`group/tab relative flex items-center justify-center gap-1.5 px-2 xl:px-4 py-3 h-full border-r ${tabDividerClass} transition-colors duration-150 ${
+									className={`group/tab relative flex items-center justify-center gap-1.5 px-2 xl:px-4 py-3 h-full border ${tabDividerClass} transition-colors duration-150 ${
 										active
 											? `bg-background border-b-2 ${activeTabBorderClass}`
 											: "bg-transparent hover:bg-foreground/[0.03]"
