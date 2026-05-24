@@ -4,7 +4,6 @@ import { HeroTitle } from "@/components/landing/hero-title";
 import { LineFieldBackground } from "@/components/landing/line-field-bg";
 import { SignatureMark } from "@/components/landing/signature-mark";
 import { getCommunityStats, getContributors } from "@/lib/community-stats";
-import DemoOne from "@/components/landing/grid-catogray";
 
 export default async function HomePage() {
 	const contributors = getContributors();

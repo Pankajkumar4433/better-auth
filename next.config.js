@@ -2,6 +2,7 @@ import { createMDX } from "fumadocs-mdx/next";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+	allowedDevOrigins: ['10.147.106.153'],
 	experimental: {
 		optimizePackageImports: [
 			"lucide-react",

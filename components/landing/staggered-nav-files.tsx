@@ -34,8 +34,8 @@ interface NavFileItem {
 }
 
 const navFiles: NavFileItem[] = [
-	{ name: "readme", href: "/" },
-	{ name: "docs", href: "/docs" },
+	{ name: "home", href: "/" },
+	{ name: "discover", href: "/discover" },
 ];
 
 interface ProductItem {
@@ -384,8 +384,8 @@ const mobileMenuSections: MobileMenuSection[] = [
 			href: p.href,
 		})),
 	},
-	{ name: "resources", children: resourceFiles },
-	{ name: "enterprise", href: "/enterprise" },
+	{ name: "other", children: resourceFiles },
+	{ name: "suggestion", href: "/enterprise" },
 ];
 
 export function StaggeredNavFiles() {
@@ -438,6 +438,8 @@ export function StaggeredNavFiles() {
 		[pathname],
 	);
 	const isDocs = pathname.startsWith("/docs");
+	const isDiscover = pathname.startsWith("/discover");
+	const isDocsLike = isDocs || isDiscover;
 	const isPricingPage = pathname === "/pricing";
 	const isResourcePage = resourceFiles.some((r) => {
 		const matchPath = r.path || r.href;
@@ -445,11 +447,11 @@ export function StaggeredNavFiles() {
 	});
 	const isKnownPage =
 		isActive("/") ||
-		isDocs ||
+		isDocsLike ||
 		isPricingPage ||
 		isResourcePage ||
 		isActive("/enterprise");
-	const isNarrowLeft = isDocs;
+	const isNarrowLeft = isDocsLike;
 	const leftPaneWidthClass = isNarrowLeft
 		? "w-[22vw] max-w-[300px]"
 		: isPricingPage || isResourcePage
@@ -502,7 +504,7 @@ export function StaggeredNavFiles() {
 						<BetterAuthWordmark className="w-35 h-auto" />
 					</Link>
 					<div className="flex items-center gap-1 pr-2">
-						{isDocs && (
+						{isDocsLike && (
 							<button
 								type="button"
 								onClick={() => {
@@ -529,8 +531,8 @@ export function StaggeredNavFiles() {
 								const opening = !mobileMenuOpen;
 								setMobileMenuOpen(opening);
 								if (opening) {
-									setMobileView(isDocs ? "docs" : "nav");
-									if (isDocs) {
+									setMobileView(isDocsLike ? "docs" : "nav");
+									if (isDocsLike) {
 										const idx = contents.findIndex((s) => {
 											const prefix = s.expandSectionForPathPrefix;
 											if (
@@ -756,7 +758,7 @@ export function StaggeredNavFiles() {
 										: "text-foreground/65 dark:text-foreground/50 group-hover/tab:text-foreground/75"
 								}`}
 							>
-								enterprise
+								suggestion
 							</span>
 						</Link>
 					</motion.div>
@@ -788,7 +790,7 @@ export function StaggeredNavFiles() {
 											: "text-foreground/65 dark:text-foreground/50 group-hover/tab:text-foreground/75"
 								}`}
 							>
-								resources
+								other
 							</span>
 							<svg
 								className={`h-2 w-2 text-foreground/55 dark:text-foreground/40 transition-transform duration-200 ${
@@ -983,7 +985,7 @@ export function StaggeredNavFiles() {
 							className="flex items-center cursor-pointer gap-1.5 px-5 py-3 bg-foreground text-background hover:opacity-90 transition-colors duration-150"
 						>
 							<span className="font-mono text-xs uppercase tracking-wider">
-								sign-in
+								soon
 							</span>
 							<svg
 								className="h-2.5 w-2.5 opacity-50"
@@ -1013,7 +1015,7 @@ export function StaggeredNavFiles() {
 					>
 						<div className="flex h-full flex-col pt-(--landing-topbar-height)">
 							<div className="flex-1 min-h-0 overflow-y-auto">
-								{isDocs && mobileView === "docs" ? (
+								{isDocsLike && mobileView === "docs" ? (
 									<>
 										{/* Subtle back to nav button */}
 										<button
@@ -1189,7 +1191,7 @@ export function StaggeredNavFiles() {
 								) : (
 									<>
 										{/* Back to docs button (when on docs page and switched to nav view) */}
-										{isDocs && mobileView === "nav" && (
+										{isDocsLike && mobileView === "nav" && (
 											<button
 												type="button"
 												onClick={() => setMobileView("docs")}
@@ -1301,14 +1303,14 @@ export function StaggeredNavFiles() {
 							</div>
 
 							{/* Sticky footer with sign-in CTA */}
-							{!(isDocs && mobileView === "docs") && (
+							{!(isDocsLike && mobileView === "docs") && (
 								<div className="shrink-0 border-t border-foreground/[0.06] bg-background px-5 py-4">
 									<a
 										href="https://dash.better-auth.com/sign-in"
 										onClick={() => setMobileMenuOpen(false)}
 										className="flex items-center justify-center gap-1.5 w-full py-3 bg-foreground text-background font-mono text-sm uppercase tracking-wider transition-opacity hover:opacity-90"
 									>
-										sign-in
+										soon
 										<svg
 											className="h-2.5 w-2.5 opacity-50"
 											viewBox="0 0 10 10"
