@@ -1,0 +1,500 @@
+{
+  "id": "design",
+  "name": "Design",
+  "slug": "design",
+  "description": "Best design tools and resources",
+  "subcategories": [
+    {
+      "id": "ui-ux",
+      "name": "UI/UX Design",
+      "slug": "ui-ux",
+      "sections": [
+        {
+          "id": "wireframing",
+          "label": "Wireframing & Prototyping",
+          "resources": [
+            { "id": "figma", "name": "Figma", "url": "https://www.figma.com", "description": "Industry-standard collaborative design tool for UI/UX with real-time multiplayer, prototyping, and dev handoff." },
+            { "id": "sketch", "name": "Sketch", "url": "https://www.sketch.com", "description": "Mac-native vector design tool with powerful plugins, symbols, and offline-first workflow for UI design." },
+            { "id": "adobe-xd", "name": "Adobe XD", "url": "https://helpx.adobe.com/xd/get-started.html", "description": "Adobe's UI/UX design and prototyping tool integrated with Creative Cloud (now in maintenance mode)." },
+            { "id": "framer", "name": "Framer", "url": "https://www.framer.com", "description": "Interactive design tool that turns high-fidelity prototypes into production-ready, publishable websites." },
+            { "id": "balsamiq", "name": "Balsamiq", "url": "https://balsamiq.com", "description": "Rapid low-fidelity wireframing tool with a hand-drawn sketch style to focus on structure over visuals." },
+            { "id": "marvel", "name": "Marvel", "url": "https://marvelapp.com", "description": "Collaborative design platform with wireframing, prototyping, user testing, and developer handoff." },
+            { "id": "axure-rp", "name": "Axure RP", "url": "https://www.axure.com", "description": "Advanced prototyping tool with conditional logic, dynamic content, and data-driven interactions for complex UX." },
+            { "id": "principle", "name": "Principle", "url": "https://principleformac.com", "description": "Mac-only tool for designing animated and interactive UI prototypes with timeline-based motion control." },
+            { "id": "proto-io", "name": "Proto.io", "url": "https://proto.io", "description": "Web-based platform for creating fully interactive, high-fidelity prototypes for mobile and web without code." },
+            { "id": "origami-studio", "name": "Origami Studio", "url": "https://origami.design", "description": "Meta's free advanced prototyping tool using visual patches for complex gesture-driven and AR/VR interactions." },
+            { "id": "penpot", "name": "Penpot", "url": "https://penpot.app", "description": "Open-source design and prototyping platform built on open web standards (SVG) for cross-functional teams." },
+            { "id": "lunacy", "name": "Lunacy", "url": "https://icons8.com/lunacy", "description": "Free design tool by Icons8 with built-in AI features, asset libraries, and native Sketch file compatibility." },
+            { "id": "moqups", "name": "Moqups", "url": "https://moqups.com", "description": "Browser-based app for creating wireframes, mockups, diagrams, and interactive prototypes collaboratively." },
+            { "id": "whimsical-wireframe", "name": "Whimsical", "url": "https://whimsical.com", "description": "Fast, clean workspace for wireframes, flowcharts, mind maps, and sticky notes with an intuitive UI." },
+            { "id": "uxpin", "name": "UXPin", "url": "https://www.uxpin.com", "description": "Code-based design tool using real React/HTML components for developer-ready, production-accurate prototypes." },
+            { "id": "protopie", "name": "ProtoPie", "url": "https://www.protopie.io", "description": "Advanced interaction prototyping tool for multi-screen, sensor-driven, and hardware-connected experiences." },
+            { "id": "visily", "name": "Visily", "url": "https://www.visily.ai", "description": "AI-powered wireframing tool that converts text prompts, screenshots, or sketches into editable UI designs." },
+            { "id": "uizard", "name": "Uizard", "url": "https://uizard.io", "description": "AI-assisted design tool that transforms hand-drawn sketches and text descriptions into digital wireframes." }
+          ]
+        },
+        {
+          "id": "design-systems",
+          "label": "Design Systems",
+          "resources": [
+            { "id": "storybook", "name": "Storybook", "url": "https://storybook.js.org", "description": "Open-source tool for building, documenting, and testing UI components in isolation across frameworks." },
+            { "id": "chromatic", "name": "Chromatic", "url": "https://www.chromatic.com", "description": "Visual regression testing and review platform for Storybook that catches UI bugs before code merges." },
+            { "id": "zeroheight", "name": "ZeroHeight", "url": "https://zeroheight.com", "description": "Design system documentation hub that connects Figma designs with live code into a searchable portal." },
+            { "id": "supernova", "name": "Supernova", "url": "https://www.supernova.io", "description": "Enterprise design system platform with versioning, governance, multi-brand support, and token management." },
+            { "id": "style-dictionary", "name": "Style Dictionary", "url": "https://amzn.github.io/style-dictionary", "description": "Amazon's open-source build system that transforms design tokens into platform-specific code formats." },
+            { "id": "material-design", "name": "Material Design", "url": "https://m3.material.io", "description": "Google's comprehensive design system with guidelines, components, and theming for building adaptive UIs." },
+            { "id": "ant-design", "name": "Ant Design", "url": "https://ant.design", "description": "Enterprise-grade React UI library with a massive component set designed for data-heavy business applications." },
+            { "id": "chakra-ui-ds", "name": "Chakra UI", "url": "https://chakra-ui.com", "description": "Accessible, developer-friendly React component library with ergonomic styling props and composable primitives." },
+            { "id": "radix-ui", "name": "Radix UI", "url": "https://www.radix-ui.com", "description": "Unstyled, accessible UI primitives for building custom, high-quality design systems in React." },
+            { "id": "shadcn-ui-ds", "name": "shadcn/ui", "url": "https://ui.shadcn.com", "description": "Copy-paste React component collection built on Radix and Tailwind CSS for full code ownership." },
+            { "id": "mui", "name": "MUI (Material UI)", "url": "https://mui.com", "description": "The most popular React component library implementing Material Design with extensive customization options." },
+            { "id": "tokens-studio", "name": "Tokens Studio", "url": "https://tokens.studio", "description": "Figma plugin for managing and syncing design tokens with code repositories via Git integration." },
+            { "id": "knapsack", "name": "Knapsack", "url": "https://www.knapsack.cloud", "description": "Design system management platform that connects design and code with documentation and governance." },
+            { "id": "backlight", "name": "Backlight", "url": "https://backlight.dev", "description": "Collaborative design system platform for building, documenting, and publishing component libraries from code." }
+          ]
+        },
+        {
+          "id": "user-flow",
+          "label": "User Flow & Journey",
+          "resources": [
+            { "id": "whimsical-flow", "name": "Whimsical", "url": "https://whimsical.com", "description": "Clean, fast workspace for creating user flows, wireframes, mind maps, and docs with minimal friction." },
+            { "id": "figjam", "name": "FigJam", "url": "https://www.figma.com/figjam", "description": "Figma's collaborative whiteboard for brainstorming, journey mapping, and workshops with seamless Figma integration." },
+            { "id": "miro", "name": "Miro", "url": "https://miro.com", "description": "Infinite canvas digital whiteboard for remote workshops, journey maps, and collaborative brainstorming." },
+            { "id": "overflow", "name": "Overflow", "url": "https://overflow.io", "description": "Dedicated user flow diagramming tool that turns screen designs into interactive, presentable flow diagrams." },
+            { "id": "flowmapp", "name": "FlowMapp", "url": "https://www.flowmapp.com", "description": "UX planning platform for visual sitemaps, user flows, and content planning linked to site architecture." },
+            { "id": "userforge", "name": "Userforge", "url": "https://userforge.com", "description": "Collaborative tool for creating and managing realistic user personas, stories, and journey maps." },
+            { "id": "lucidchart", "name": "Lucidchart", "url": "https://www.lucidchart.com", "description": "Enterprise-grade diagramming tool for flowcharts, system architecture, and data-linked process mapping." },
+            { "id": "diagrams-net", "name": "draw.io (diagrams.net)", "url": "https://app.diagrams.net", "description": "Free, open-source diagramming tool for flowcharts, wireframes, and UML with local and cloud storage." },
+            { "id": "octopus-do", "name": "Octopus.do", "url": "https://octopus.do", "description": "Lightning-fast visual sitemap builder for planning website structure and user navigation hierarchies." },
+            { "id": "mural", "name": "MURAL", "url": "https://www.mural.co", "description": "Digital workspace for visual collaboration with templates for journey mapping, design sprints, and workshops." },
+            { "id": "creately", "name": "Creately", "url": "https://creately.com", "description": "Visual collaboration platform with smart diagramming for flowcharts, user journeys, and process maps." }
+          ]
+        },
+        {
+          "id": "accessibility",
+          "label": "Accessibility Tools",
+          "resources": [
+            { "id": "stark", "name": "Stark", "url": "https://www.getstark.co", "description": "Accessibility suite integrated into Figma, Sketch, and Adobe XD for contrast, vision simulation, and compliance." },
+            { "id": "axe-devtools", "name": "axe DevTools", "url": "https://www.deque.com/axe", "description": "Industry-standard accessibility testing engine with zero false positives and deep CI/CD integration." },
+            { "id": "wave", "name": "WAVE", "url": "https://wave.webaim.org", "description": "Free web accessibility evaluation tool by WebAIM with visual in-page feedback overlays for auditing." },
+            { "id": "color-oracle", "name": "Color Oracle", "url": "https://colororacle.org", "description": "Free system-wide color blindness simulator for Windows, Mac, and Linux for real-time design preview." },
+            { "id": "webaim-contrast", "name": "WebAIM Contrast Checker", "url": "https://webaim.org/resources/contrastchecker", "description": "Free online tool to check foreground/background color contrast ratios against WCAG AA and AAA standards." },
+            { "id": "who-can-use", "name": "Who Can Use", "url": "https://www.whocanuse.com", "description": "Visual tool showing how color contrast choices affect people with various vision impairments and conditions." },
+            { "id": "a11y-project", "name": "The A11y Project", "url": "https://www.a11yproject.com", "description": "Community-driven resource with accessibility checklist, best practices, patterns, and curated tool links." },
+            { "id": "pa11y", "name": "Pa11y", "url": "https://pa11y.org", "description": "Open-source automated accessibility testing CLI suite for CI/CD pipelines with configurable output formats." },
+            { "id": "lighthouse", "name": "Google Lighthouse", "url": "https://developer.chrome.com/docs/lighthouse", "description": "Google's open-source automated auditing tool for accessibility, performance, SEO, and best practices." },
+            { "id": "colour-contrast-analyser", "name": "Colour Contrast Analyser", "url": "https://www.tpgi.com/color-contrast-checker", "description": "Desktop app by TPGi for pixel-level color contrast checking with eyedropper and WCAG compliance grading." },
+            { "id": "axe-core", "name": "axe-core", "url": "https://github.com/dequelabs/axe-core", "description": "Open-source accessibility testing engine powering axe DevTools, Lighthouse, and many other tools." },
+            { "id": "accessible-colors", "name": "Accessible Colors", "url": "https://accessible-colors.com", "description": "Simple tool that suggests the closest accessible color alternatives when your palette fails WCAG contrast." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "graphics",
+      "name": "Graphics & Illustrations",
+      "slug": "graphics",
+      "sections": [
+        {
+          "id": "vector-graphics",
+          "label": "Vector Editors",
+          "resources": [
+            { "id": "figma-vec", "name": "Figma", "url": "https://www.figma.com", "description": "Collaborative browser-based design tool for UI/UX with real-time multiplayer editing and prototyping." },
+            { "id": "adobe-illustrator", "name": "Adobe Illustrator", "url": "https://www.adobe.com/products/illustrator.html", "description": "Industry-standard vector graphics editor for logos, icons, illustrations, and print design." },
+            { "id": "inkscape", "name": "Inkscape", "url": "https://inkscape.org", "description": "Free, open-source vector graphics editor with powerful SVG editing and cross-platform support." },
+            { "id": "vectr", "name": "Vectr", "url": "https://vectr.com", "description": "Simple, free vector graphics editor with real-time collaboration and AI-powered design tools." },
+            { "id": "boxy-svg", "name": "Boxy SVG", "url": "https://boxy-svg.com", "description": "Lightweight SVG editor built for the web, producing clean and optimized SVG markup." },
+            { "id": "svgator", "name": "SVGator", "url": "https://www.svgator.com", "description": "No-code SVG animation platform for creating animated icons, loaders, and illustrations for the web." },
+            { "id": "canva-vec", "name": "Canva", "url": "https://www.canva.com", "description": "All-in-one graphic design platform with drag-and-drop editing, templates, and AI-powered tools." },
+            { "id": "affinity-designer", "name": "Affinity Designer", "url": "https://affinity.serif.com/designer", "description": "Professional vector and raster design tool with a one-time purchase model and no subscription fees." },
+            { "id": "coreldraw", "name": "CorelDRAW", "url": "https://www.coreldraw.com", "description": "Professional vector illustration and layout software ideal for signage, print, and large-format design." },
+            { "id": "penpot-vec", "name": "Penpot", "url": "https://penpot.app", "description": "Open-source design and prototyping platform with real-time collaboration and SVG-native workflow." },
+            { "id": "linearity-curve", "name": "Linearity Curve", "url": "https://www.linearity.io/curve", "description": "Vector design app for Mac and iPad with auto-trace, powerful pen tools, and animation export." }
+          ]
+        },
+        {
+          "id": "stock-photos",
+          "label": "Free Stock Photos",
+          "resources": [
+            { "id": "unsplash", "name": "Unsplash", "url": "https://unsplash.com", "description": "High-quality, freely usable photos contributed by a global community of photographers." },
+            { "id": "pexels", "name": "Pexels", "url": "https://www.pexels.com", "description": "Free stock photos and videos with powerful search filters for color, orientation, and size." },
+            { "id": "pixabay", "name": "Pixabay", "url": "https://pixabay.com", "description": "All-in-one free media library offering photos, vectors, illustrations, music, and sound effects." },
+            { "id": "burst", "name": "Burst (Shopify)", "url": "https://burst.shopify.com", "description": "Free stock photos by Shopify curated for entrepreneurs, e-commerce, and business use cases." },
+            { "id": "stocksnap", "name": "StockSnap", "url": "https://stocksnap.io", "description": "Beautifully curated, high-resolution stock photos updated frequently with no attribution required." },
+            { "id": "kaboompics", "name": "Kaboompics", "url": "https://kaboompics.com", "description": "Aesthetic, color-coordinated stock photos with a unique search-by-palette feature for brand consistency." },
+            { "id": "reshot", "name": "Reshot", "url": "https://www.reshot.com", "description": "Hand-curated library of non-stocky, authentic photos and SVG icons free for commercial use." },
+            { "id": "picjumbo", "name": "Picjumbo", "url": "https://picjumbo.com", "description": "Free high-quality stock photos for personal and commercial use with no attribution required." },
+            { "id": "life-of-pix", "name": "Life of Pix", "url": "https://www.lifeofpix.com", "description": "Community-driven high-resolution photography released under Creative Commons Zero (CC0) license." },
+            { "id": "gratisography", "name": "Gratisography", "url": "https://gratisography.com", "description": "Quirky, creative, and whimsical high-resolution stock photos free for personal and commercial use." },
+            { "id": "rawpixel", "name": "Rawpixel", "url": "https://www.rawpixel.com", "description": "Diverse creative assets including photos, PSD mockups, vectors, and public domain illustrations." },
+            { "id": "iso-republic", "name": "ISO Republic", "url": "https://isorepublic.com", "description": "High-quality free stock photos and videos for creative professionals, no attribution needed." },
+            { "id": "nappy", "name": "Nappy", "url": "https://nappy.co", "description": "Beautiful, diverse stock photos featuring Black and Brown people, free for commercial use." }
+          ]
+        },
+        {
+          "id": "icons",
+          "label": "Icon Libraries",
+          "resources": [
+            { "id": "lucide", "name": "Lucide", "url": "https://lucide.dev", "description": "Community-maintained, consistent icon set with tree-shaking support for React, Vue, Svelte, and more." },
+            { "id": "heroicons", "name": "Heroicons", "url": "https://heroicons.com", "description": "Beautiful hand-crafted SVG icons by the makers of Tailwind CSS in outline, solid, and mini styles." },
+            { "id": "phosphor-icons", "name": "Phosphor Icons", "url": "https://phosphoricons.com", "description": "Flexible icon family with 6 weights (thin, light, regular, bold, fill, duotone) and thousands of icons." },
+            { "id": "tabler-icons", "name": "Tabler Icons", "url": "https://tabler.io/icons", "description": "Over 5,900 free, open-source SVG icons perfect for dashboards, admin panels, and web apps." },
+            { "id": "feather-icons", "name": "Feather Icons", "url": "https://feathericons.com", "description": "Simply beautiful open-source icons designed on a 24x24 grid with clean, minimal strokes." },
+            { "id": "iconify", "name": "Iconify", "url": "https://iconify.design", "description": "Universal icon framework providing access to 200,000+ icons from 150+ sets through a single API." },
+            { "id": "material-symbols", "name": "Material Symbols", "url": "https://fonts.google.com/icons", "description": "Google's official icon set with variable font support for adjustable weight, fill, and optical size." },
+            { "id": "font-awesome", "name": "Font Awesome", "url": "https://fontawesome.com", "description": "The web's most popular icon set with thousands of icons in multiple styles and framework integrations." },
+            { "id": "flaticon", "name": "Flaticon", "url": "https://www.flaticon.com", "description": "Largest database of free icons and stickers available in PNG, SVG, EPS, PSD, and CSS formats." },
+            { "id": "iconscout", "name": "Iconscout", "url": "https://iconscout.com", "description": "Curated marketplace for icons, 3D illustrations, and Lottie animations with design tool plugins." },
+            { "id": "svgrepo", "name": "SVGRepo", "url": "https://www.svgrepo.com", "description": "Massive search engine for free, open-source SVG icons and vectors with optimized downloads." },
+            { "id": "radix-icons", "name": "Radix Icons", "url": "https://icons.radix-ui.com", "description": "Crisp, consistent icon set designed to pair with Radix UI component primitives." },
+            { "id": "remix-icon", "name": "Remix Icon", "url": "https://remixicon.com", "description": "Open-source neutral-style icon system with 2,800+ icons for both web and mobile applications." },
+            { "id": "simple-icons", "name": "Simple Icons", "url": "https://simpleicons.org", "description": "Free SVG icons for popular brands and services, maintained by an open-source community." },
+            { "id": "icons8", "name": "Icons8", "url": "https://icons8.com", "description": "Consistent icon packs in multiple styles with built-in editor, photos, illustrations, and music." },
+            { "id": "lordicon", "name": "Lordicon", "url": "https://lordicon.com", "description": "Powerful animated icon library with interactive Lottie-based animations and easy web integration." },
+            { "id": "iconoir", "name": "Iconoir", "url": "https://iconoir.com", "description": "High-quality open-source icon library with 1,500+ SVG icons and native React/Figma support." }
+          ]
+        },
+        {
+          "id": "illustrations",
+          "label": "Free Illustrations",
+          "resources": [
+            { "id": "undraw", "name": "unDraw", "url": "https://undraw.co", "description": "Open-source SVG illustrations with on-the-fly color customization, free for any project." },
+            { "id": "blush", "name": "Blush", "url": "https://blush.design", "description": "Customizable illustrations with mix-and-match components from top artists, with Figma plugin support." },
+            { "id": "humaaans", "name": "Humaaans", "url": "https://www.humaaans.com", "description": "Modular mix-and-match illustration library for creating diverse human character scenes." },
+            { "id": "open-peeps", "name": "Open Peeps", "url": "https://www.openpeeps.com", "description": "Hand-drawn, modular character illustration system released under CC0 public domain license." },
+            { "id": "drawkit", "name": "DrawKit", "url": "https://www.drawkit.io", "description": "Professional hand-drawn and vector illustrations and icons for websites, apps, and presentations." },
+            { "id": "storyset", "name": "Storyset", "url": "https://storyset.com", "description": "Free customizable and animated illustrations by Freepik with in-browser editing and multiple styles." },
+            { "id": "manypixels", "name": "ManyPixels", "url": "https://www.manypixels.co/gallery", "description": "Searchable gallery of royalty-free flat and isometric illustrations for commercial projects." },
+            { "id": "absurd-design", "name": "Absurd Design", "url": "https://absurd.design", "description": "Surreal, artistic, and hand-drawn illustrations that add a unique, whimsical touch to projects." },
+            { "id": "open-doodles", "name": "Open Doodles", "url": "https://www.opendoodles.com", "description": "Free sketchy hand-drawn illustrations released under CC0 for personal and commercial use." },
+            { "id": "sketchvalley", "name": "Sketchvalley", "url": "https://sketchvalley.com", "description": "Free vector illustrations in SVG and PNG formats for personal and commercial use." },
+            { "id": "getillustrations", "name": "GetIllustrations", "url": "https://www.getillustrations.com", "description": "Premium and free illustration packs in various styles for websites, apps, and landing pages." },
+            { "id": "scale-illustrations", "name": "Illustrations by Scale", "url": "https://2.flexiple.com/scale/all-illustrations", "description": "Free customizable illustrations with color customization for startups and commercial projects." }
+          ]
+        },
+        {
+          "id": "3d-assets",
+          "label": "3D Models & Assets",
+          "resources": [
+            { "id": "spline", "name": "Spline", "url": "https://spline.design", "description": "Web-based 3D design and collaboration tool for creating interactive 3D scenes and animations." },
+            { "id": "three-js", "name": "Three.js", "url": "https://threejs.org", "description": "Popular JavaScript library for creating and rendering 3D graphics in the browser using WebGL." },
+            { "id": "sketchfab", "name": "Sketchfab", "url": "https://sketchfab.com", "description": "Largest platform for publishing, sharing, and discovering 3D, VR, and AR content online." },
+            { "id": "poly-pizza", "name": "Poly.pizza", "url": "https://poly.pizza", "description": "Free low-poly 3D models under CC-BY/CC0 licenses, successor to Google Poly for game-ready assets." },
+            { "id": "cgtrader", "name": "CGTrader", "url": "https://www.cgtrader.com", "description": "Professional 3D model marketplace with PBR-ready assets for games, AR/VR, and visualization." },
+            { "id": "turbosquid", "name": "TurboSquid", "url": "https://www.turbosquid.com", "description": "Industry-leading marketplace for high-quality, professionally vetted 3D models and assets." },
+            { "id": "free3d", "name": "Free3D", "url": "https://free3d.com", "description": "Large collection of free and premium 3D models in multiple formats for any creative project." },
+            { "id": "3dicons", "name": "3Dicons", "url": "https://3dicons.co", "description": "Open-source beautifully crafted 3D icons under CC0 license, available in Figma, PNG, and Blender." },
+            { "id": "shapefest", "name": "Shapefest", "url": "https://www.shapefest.com", "description": "Cohesive library of thousands of high-quality 3D illustrations and shapes with consistent styling." },
+            { "id": "poly-haven", "name": "Poly Haven", "url": "https://polyhaven.com", "description": "Free CC0 HDRIs, textures, and 3D models for production-quality rendering and visualization." },
+            { "id": "mixamo", "name": "Mixamo", "url": "https://www.mixamo.com", "description": "Adobe's free platform for 3D character animation with auto-rigging and a vast motion library." }
+          ]
+        },
+        {
+          "id": "backgrounds",
+          "label": "Background Generators",
+          "resources": [
+            { "id": "haikei", "name": "Haikei", "url": "https://haikei.app", "description": "Web-based tool for generating unique SVG shapes, blobs, waves, and gradient backgrounds." },
+            { "id": "svg-backgrounds", "name": "SVG Backgrounds", "url": "https://www.svgbackgrounds.com", "description": "Customizable, lightweight SVG-based repeating patterns and backgrounds for web projects." },
+            { "id": "cool-backgrounds", "name": "Cool Backgrounds", "url": "https://coolbackgrounds.io", "description": "Collection of tools to create compelling abstract backgrounds with particles, gradients, and more." },
+            { "id": "hero-patterns", "name": "Hero Patterns", "url": "https://heropatterns.com", "description": "Repeatable SVG background patterns with customizable foreground and background colors." },
+            { "id": "bgjar", "name": "BGJar", "url": "https://bgjar.com", "description": "Free SVG background generator with waves, blobs, geometric shapes, and circuit-style patterns." },
+            { "id": "magicpattern-bg", "name": "MagicPattern", "url": "https://www.magicpattern.design", "description": "Design toolbox with mesh gradients, geometric patterns, blobs, and CSS pattern generators." },
+            { "id": "mesh-gradient-bg", "name": "Mesh Gradient", "url": "https://meshgradient.in", "description": "Free tool for generating beautiful, fluid mesh gradient backgrounds directly in the browser." },
+            { "id": "gradienta-bg", "name": "Gradienta", "url": "https://gradienta.io", "description": "Collection of multicolor CSS gradients and SVG backgrounds ready for web and UI projects." },
+            { "id": "pattern-pad", "name": "PatternPad", "url": "https://patternpad.com", "description": "Create unique repeatable SVG patterns with full control over shapes, colors, and composition." },
+            { "id": "wicked-backgrounds", "name": "Wicked Backgrounds", "url": "https://wickedbackgrounds.com", "description": "Generate beautiful, customizable wavy SVG backgrounds for hero sections and landing pages." },
+            { "id": "gradient-magic", "name": "Gradient Magic", "url": "https://www.gradientmagic.com", "description": "Gallery of unique, complex CSS gradient patterns ready to copy and use in your projects." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "colors",
+      "name": "Colors & Gradients",
+      "slug": "colors",
+      "sections": [
+        {
+          "id": "color-palettes",
+          "label": "Color Palettes",
+          "resources": [
+            { "id": "coolors", "name": "Coolors", "url": "https://coolors.co", "description": "Lightning-fast color palette generator with spacebar-to-generate workflow and easy locking mechanism." },
+            { "id": "color-hunt", "name": "Color Hunt", "url": "https://colorhunt.co", "description": "Community-driven collection of thousands of curated, trendy color palettes updated daily." },
+            { "id": "adobe-color", "name": "Adobe Color", "url": "https://color.adobe.com", "description": "Professional color wheel with harmony rules, accessibility tools, and Creative Cloud integration." },
+            { "id": "colormind", "name": "Colormind", "url": "http://colormind.io", "description": "AI-powered palette generator that learns color schemes from photographs, movies, and popular art." },
+            { "id": "muzli-colors", "name": "Muzli Colors", "url": "https://colors.muz.li", "description": "AI-driven color palette generator with live UI previews and export to Figma, CSS, and Tailwind." },
+            { "id": "colorsinspo", "name": "Colorsinspo", "url": "https://colorsinspo.com", "description": "All-in-one color hub with curated palettes, color wheel, contrast checker, and gradient generators." },
+            { "id": "happy-hues", "name": "Happy Hues", "url": "https://www.happyhues.co", "description": "Apply different color palettes to a sample website layout to see how they work in real-world context." },
+            { "id": "paletton", "name": "Paletton", "url": "https://paletton.com", "description": "Classic color scheme designer based on traditional color theory with precise harmony controls." },
+            { "id": "colorspace", "name": "ColorSpace", "url": "https://mycolor.space", "description": "Enter a base color to generate matching palettes and gradients using color theory algorithms." },
+            { "id": "pigment", "name": "Pigment", "url": "https://pigment.shapefactory.co", "description": "Generates premium-feeling palettes using lighting and pigment algorithms instead of standard math." },
+            { "id": "realtime-colors", "name": "Realtime Colors", "url": "https://www.realtimecolors.com", "description": "Visualize your color palette on a real-time website preview with text, buttons, and accent elements." },
+            { "id": "khroma", "name": "Khroma", "url": "https://www.khroma.co", "description": "AI-powered tool that learns your color preferences and generates infinite personalized palettes." },
+            { "id": "huemint", "name": "Huemint", "url": "https://huemint.com", "description": "AI palette generator that creates color schemes for specific design contexts like UI and branding." }
+          ]
+        },
+        {
+          "id": "gradient-generators",
+          "label": "Gradient Generators",
+          "resources": [
+            { "id": "css-gradient", "name": "CSS Gradient", "url": "https://cssgradient.io", "description": "Reliable tool for creating linear and radial CSS gradients with an intuitive visual interface." },
+            { "id": "grabient", "name": "Grabient", "url": "https://www.grabient.com", "description": "Streamlined gradient generator with a fast UI for quick manual color adjustments." },
+            { "id": "gradient-hunt", "name": "Gradient Hunt", "url": "https://gradienthunt.com", "description": "Large community-driven gallery of hand-picked color gradients with easy CSS code copying." },
+            { "id": "uigradients", "name": "uiGradients", "url": "https://uigradients.com", "description": "Classic curated collection of beautiful gradient color schemes for quick inspiration." },
+            { "id": "webgradients", "name": "WebGradients", "url": "https://webgradients.com", "description": "Collection of 180+ linear gradients available as CSS, PNG, Sketch, and Photoshop formats." },
+            { "id": "mesh-gradient-gen", "name": "Mesh Gradient", "url": "https://meshgradient.in", "description": "Create fluid, organic, multi-point mesh gradient backgrounds with SVG and PNG export." },
+            { "id": "eggradients", "name": "Eggradients", "url": "https://www.eggradients.com", "description": "Creative gradient collection displayed in egg shapes with CSS/HEX codes and Chrome extension." },
+            { "id": "gradienta-gen", "name": "Gradienta", "url": "https://gradienta.io", "description": "Carefully crafted, high-quality gradient collection available in CSS, PNG, and JPG formats." },
+            { "id": "coolors-gradient", "name": "Coolors Gradient Maker", "url": "https://coolors.co/gradient-maker", "description": "Part of the Coolors ecosystem for creating gradients that match your existing brand palettes." },
+            { "id": "magic-pattern-grad", "name": "MagicPattern", "url": "https://www.magicpattern.design/tools/css-backgrounds", "description": "Design tool suite including mesh gradients, CSS backgrounds, and organic pattern generators." }
+          ]
+        },
+        {
+          "id": "contrast-checkers",
+          "label": "Contrast Checkers",
+          "resources": [
+            { "id": "webaim-cc", "name": "WebAIM Contrast Checker", "url": "https://webaim.org/resources/contrastchecker", "description": "Industry-standard free tool for checking color contrast ratios against WCAG AA and AAA standards." },
+            { "id": "colour-contrast-cc", "name": "Colour Contrast Analyser", "url": "https://www.tpgi.com/color-contrast-checker", "description": "Desktop app by TPGi for pixel-level contrast testing with eyedropper and color blindness simulator." },
+            { "id": "accessible-colors-cc", "name": "Accessible Colors", "url": "https://accessible-colors.com", "description": "Simple tool to check and fix color accessibility issues by suggesting WCAG-compliant alternatives." },
+            { "id": "contrast-ratio", "name": "Contrast Ratio", "url": "https://contrast-ratio.com", "description": "Minimalist contrast checker by Lea Verou supporting semi-transparent colors and real-time updates." },
+            { "id": "polypane-cc", "name": "Polypane Contrast Checker", "url": "https://polypane.app/color-contrast", "description": "Automated page-wide contrast scanner with actionable fix suggestions and APCA support." },
+            { "id": "stark-cc", "name": "Stark", "url": "https://www.getstark.co", "description": "Comprehensive accessibility suite with Figma/Sketch plugins for contrast, vision simulation, and more." },
+            { "id": "color-review", "name": "Color Review", "url": "https://color.review", "description": "Interactive tool for finding accessible color palettes with real-time UI preview and WCAG feedback." },
+            { "id": "coolors-cc", "name": "Coolors Contrast Checker", "url": "https://coolors.co/contrast-checker", "description": "User-friendly contrast checker integrated with the popular Coolors palette ecosystem." },
+            { "id": "color-safe", "name": "Color Safe", "url": "https://colorsafe.co", "description": "Generate accessible color palettes from scratch based on WCAG guidelines and your brand colors." }
+          ]
+        },
+        {
+          "id": "color-extraction",
+          "label": "Color Extraction Tools",
+          "resources": [
+            { "id": "colorkitty", "name": "ColorKitty", "url": "https://colorkitty.com", "description": "Extract beautiful color palettes from images with an intuitive drag-and-drop interface." },
+            { "id": "imagecolorpicker", "name": "ImageColorPicker", "url": "https://imagecolorpicker.com", "description": "Upload any image and use the eyedropper tool to pick exact HEX, RGB, and HSL color values." },
+            { "id": "adobe-color-extract", "name": "Adobe Color Extract Theme", "url": "https://color.adobe.com/create/image", "description": "Extract color themes from uploaded images with Adobe's professional color harmony tools." },
+            { "id": "coolors-image-picker", "name": "Coolors Image Picker", "url": "https://coolors.co/image-picker", "description": "Upload an image to Coolors and instantly generate a refined color palette from it." },
+            { "id": "canva-palette", "name": "Canva Color Palette Generator", "url": "https://www.canva.com/colors/color-palette-generator", "description": "Upload a photo to extract colors and immediately use the palette in Canva design templates." },
+            { "id": "cohesive-colors", "name": "Cohesive Colors", "url": "https://javier.xyz/cohesive-colors", "description": "Create cohesive palettes by applying a unifying overlay color to harmonize different colors." },
+            { "id": "colorzilla", "name": "ColorZilla", "url": "https://www.colorzilla.com", "description": "Browser extension to grab colors from any webpage with built-in palette generator and color analysis." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "typography",
+      "name": "Typography",
+      "slug": "typography",
+      "sections": [
+        {
+          "id": "fonts",
+          "label": "Free Fonts",
+          "resources": [
+            { "id": "google-fonts", "name": "Google Fonts", "url": "https://fonts.google.com", "description": "Industry-standard library of 1500+ free open-source fonts optimized for web with easy integration." },
+            { "id": "font-squirrel", "name": "Font Squirrel", "url": "https://www.fontsquirrel.com", "description": "Hand-screened free fonts guaranteed for commercial use with a webfont generator tool." },
+            { "id": "dafont", "name": "DaFont", "url": "https://www.dafont.com", "description": "Massive archive of freely downloadable fonts categorized by style — verify licenses before commercial use." },
+            { "id": "1001fonts", "name": "1001 Fonts", "url": "https://www.1001fonts.com", "description": "Large collection of free fonts with detailed licensing info categorized by style from vintage to futuristic." },
+            { "id": "fontspace", "name": "FontSpace", "url": "https://www.fontspace.com", "description": "Designer-centered platform with a huge library of clearly licensed fonts and preview tools." },
+            { "id": "fontesk", "name": "Fontesk", "url": "https://fontesk.com", "description": "Large database aggregating free fonts from across the internet including many non-Latin typefaces." },
+            { "id": "velvetyne", "name": "Velvetyne Type Foundry", "url": "https://velvetyne.fr", "description": "French foundry offering eclectic, experimental, and bold libre-licensed display typefaces." },
+            { "id": "league-of-moveable-type", "name": "The League of Moveable Type", "url": "https://www.theleagueofmoveabletype.com", "description": "One of the first open-source type foundries with high-quality, professionally crafted fonts." },
+            { "id": "open-foundry", "name": "Open Foundry", "url": "https://open-foundry.com", "description": "Curated open-source typography platform with tools to test kerning, sizing, and backgrounds." },
+            { "id": "fontshare", "name": "Fontshare", "url": "https://www.fontshare.com", "description": "Premium-quality free fonts by Indian Type Foundry featuring modern typefaces like Satoshi and General Sans." },
+            { "id": "uncut-wtf", "name": "Uncut.wtf", "url": "https://uncut.wtf", "description": "Curated catalog of contemporary, cutting-edge open-source typefaces with a privacy-first approach." },
+            { "id": "adobe-fonts", "name": "Adobe Fonts", "url": "https://fonts.adobe.com", "description": "Thousands of high-quality fonts included with any Adobe Creative Cloud subscription." }
+          ]
+        },
+        {
+          "id": "font-pairings",
+          "label": "Font Pairings",
+          "resources": [
+            { "id": "fontpair", "name": "Fontpair", "url": "https://www.fontpair.co", "description": "Curated collection of Google Font pairings organized by category with download links." },
+            { "id": "fontjoy", "name": "Fontjoy", "url": "https://fontjoy.com", "description": "AI-powered font pairing generator using neural networks with adjustable contrast slider." },
+            { "id": "typ-io", "name": "Typ.io", "url": "https://typ.io", "description": "Discover font pairings used on real websites with searchable database by font name or style." },
+            { "id": "typewolf", "name": "Typewolf", "url": "https://www.typewolf.com", "description": "Typography inspiration from real websites showing trending fonts and professional pairing examples." },
+            { "id": "typespiration", "name": "Typespiration", "url": "https://typespiration.com", "description": "Curated font pairings with matching color palettes and ready-to-use CSS code snippets." },
+            { "id": "pair-and-compare", "name": "Pair & Compare", "url": "https://pairandcompare.net", "description": "Google Fonts playground to test and compare multiple font pairings with your own text in real-time." },
+            { "id": "archetype", "name": "Archetype", "url": "https://archetypeapp.com", "description": "Interactive typography design tool for creating and previewing font pairings with fine-tuned controls." }
+          ]
+        },
+        {
+          "id": "type-scales",
+          "label": "Typography Scales",
+          "resources": [
+            { "id": "type-scale", "name": "Type Scale", "url": "https://typescale.com", "description": "Visual type scale calculator to preview different ratios with your content in real-time." },
+            { "id": "fluid-type-scale", "name": "Fluid Type Scale Calculator", "url": "https://www.fluid-type-scale.com", "description": "Generate fluid typography CSS clamp() rules with customizable min/max viewports and ratios." },
+            { "id": "utopia", "name": "Utopia", "url": "https://utopia.fyi", "description": "Industry-standard tool for fluid responsive typography and spacing using CSS clamp() variables." },
+            { "id": "modular-scale", "name": "Modular Scale", "url": "https://www.modularscale.com", "description": "Calculate proportional type scales using musical ratios with output for Web, Sass, and JavaScript." },
+            { "id": "clamp-generator", "name": "Clamp Generator", "url": "https://clampgenerator.com", "description": "Advanced clamp() generator with granular control for CSS, Tailwind, and SCSS responsive typography." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "inspiration",
+      "name": "Inspiration",
+      "slug": "inspiration",
+      "sections": [
+        {
+          "id": "ui-galleries",
+          "label": "UI Galleries",
+          "resources": [
+            { "id": "dribbble", "name": "Dribbble", "url": "https://dribbble.com", "description": "Leading community for designers to share work, explore visual trends, and find color/layout inspiration." },
+            { "id": "behance", "name": "Behance", "url": "https://www.behance.net", "description": "Adobe's platform for in-depth design case studies showcasing full creative processes." },
+            { "id": "mobbin", "name": "Mobbin", "url": "https://mobbin.com", "description": "Gold standard for real-world mobile and web UI patterns with a massive searchable library." },
+            { "id": "screenlane", "name": "Screenlane", "url": "https://screenlane.com", "description": "Highly curated collection of web and mobile interface designs for discovering current UI patterns." },
+            { "id": "refero", "name": "Refero", "url": "https://refero.design", "description": "Design reference library with real product screenshots to help designers study UI patterns." },
+            { "id": "godly", "name": "Godly", "url": "https://godly.website", "description": "Hand-curated gallery of visually striking web designs with animated thumbnails." },
+            { "id": "awwwards", "name": "Awwwards", "url": "https://www.awwwards.com", "description": "Definitive platform for award-winning, cutting-edge web design with motion and interactivity." },
+            { "id": "siteinspire", "name": "SiteInspire", "url": "https://www.siteinspire.com", "description": "High-end gallery known for clean, editorial, and type-driven aesthetic." },
+            { "id": "land-book", "name": "Land-book", "url": "https://land-book.com", "description": "Highly curated gallery emphasizing design excellence for corporate and SaaS landing pages." },
+            { "id": "page-flows", "name": "Page Flows", "url": "https://pageflows.com", "description": "Curated library of real-world user flow recordings and annotated screenshots." },
+            { "id": "muzli", "name": "Muzli", "url": "https://muz.li", "description": "Daily design inspiration feed aggregating the best design content from across the web." },
+            { "id": "collect-ui", "name": "CollectUI", "url": "https://collectui.com", "description": "Hand-picked daily UI design inspiration organized by categories like dashboards and landing pages." },
+            { "id": "designspiration", "name": "Designspiration", "url": "https://www.designspiration.com", "description": "Powerful visual search engine for designers with color palette filtering and mood-boarding." },
+            { "id": "httpster", "name": "Httpster", "url": "https://httpster.net", "description": "Curated gallery showcasing beautiful website designs with focus on clean typography and modern aesthetics." },
+            { "id": "lapa-ninja", "name": "Lapa.ninja", "url": "https://www.lapa.ninja", "description": "Massive searchable library of thousands of landing pages with robust filtering." },
+            { "id": "saas-landing-page", "name": "SaaS Landing Page", "url": "https://saaslandingpage.com", "description": "Curated gallery of SaaS landing page designs showcasing pricing, hero sections, and layouts." },
+            { "id": "css-design-awards", "name": "CSS Design Awards", "url": "https://www.cssdesignawards.com", "description": "International web design award platform recognizing outstanding CSS-driven website design." },
+            { "id": "ui-sources", "name": "UI Sources", "url": "https://www.uisources.com", "description": "Design inspiration providing detailed app flow breakdowns, annotated screenshots, and flow maps." }
+          ]
+        },
+        {
+          "id": "landing-pages",
+          "label": "Landing Page Inspiration",
+          "resources": [
+            { "id": "landingfolio", "name": "Landingfolio", "url": "https://www.landingfolio.com", "description": "High-quality landing page gallery with UI components and templates for Webflow, Tailwind, and React." },
+            { "id": "one-page-love", "name": "One Page Love", "url": "https://onepagelove.com", "description": "Authoritative resource focused on single-page websites with story-led landing pages." },
+            { "id": "pages-xyz", "name": "Pages.xyz", "url": "https://www.pages.xyz", "description": "Curated collection of landing page designs organized by style and aesthetic preferences." },
+            { "id": "landings-dev", "name": "Landings.dev", "url": "https://landings.dev", "description": "Resource for browsing developer and startup-focused landing page examples." },
+            { "id": "saaspo", "name": "Saaspo", "url": "https://saaspo.com", "description": "Curated collection of the best SaaS websites for design inspiration with filtering by category." }
+          ]
+        },
+        {
+          "id": "logo-inspiration",
+          "label": "Logo Inspiration",
+          "resources": [
+            { "id": "logolounge", "name": "LogoLounge", "url": "https://www.logolounge.com", "description": "Premier searchable database of 450,000+ logos with annual trend reports." },
+            { "id": "logopond", "name": "Logopond", "url": "https://logopond.com", "description": "Free community-driven showcase for identity work with diverse logo concepts." },
+            { "id": "logo-design-love", "name": "Logo Design Love", "url": "https://www.logodesignlove.com", "description": "Essential blog offering deep insights, design history, and professional advice on logo design." },
+            { "id": "logobook", "name": "Logobook", "url": "https://www.logobook.com", "description": "High-quality curated collection of logos in black and white, focusing on form and simplicity." },
+            { "id": "brand-new", "name": "Brand New", "url": "https://www.underconsideration.com/brandnew/", "description": "Gold standard for reviews and commentary on corporate and brand identity redesigns." },
+            { "id": "logosear-ch", "name": "Logosear.ch", "url": "https://logosear.ch", "description": "Search engine for SVG logos from various open-source projects and brands for reference." }
+          ]
+        },
+        {
+          "id": "portfolio-inspiration",
+          "label": "Portfolio Inspiration",
+          "resources": [
+            { "id": "bestfolios", "name": "Bestfolios", "url": "https://www.bestfolios.com", "description": "Leading curated gallery of UI/UX designer portfolios, resumes, and case studies." },
+            { "id": "personalsites", "name": "PersonalSit.es", "url": "https://personalsit.es", "description": "Community-driven directory for personal websites showcasing diverse creative expressions." },
+            { "id": "humans-fyi", "name": "Humans.fyi", "url": "https://humans.fyi", "description": "Directory of personal websites and portfolios from people in the tech and design industry." },
+            { "id": "webflow-showcase", "name": "Webflow Showcase", "url": "https://webflow.com/made-in-webflow", "description": "Showcase of interactive and cloneable portfolio sites built on Webflow." },
+            { "id": "wall-of-portfolios", "name": "Wall of Portfolios", "url": "https://wallofportfolios.in", "description": "Curated platform of UX, UI, and product designer portfolios organized by themes." },
+            { "id": "awwwards-portfolios", "name": "Awwwards Portfolios", "url": "https://www.awwwards.com/websites/portfolio/", "description": "Award-winning portfolio websites pushing the boundaries of creativity and interactive design." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "presentation",
+      "name": "Mockups & Presentation",
+      "slug": "presentation",
+      "sections": [
+        {
+          "id": "device-mockups",
+          "label": "Device Mockups",
+          "resources": [
+            { "id": "mockup-world", "name": "Mockup World", "url": "https://www.mockupworld.co", "description": "Curated directory of high-quality free PSD mockup files for editing in Photoshop or Figma." },
+            { "id": "shots-so", "name": "Shots.so", "url": "https://shots.so", "description": "Free online tool to turn screenshots into professional mockups with device frames and gradients." },
+            { "id": "smartmockups", "name": "SmartMockups", "url": "https://smartmockups.com", "description": "Top-tier browser-based mockup generator with massive library covering technology and packaging." },
+            { "id": "cleanmock", "name": "Cleanmock", "url": "https://cleanmock.com", "description": "Clean, professional device mockup generator favored by UI/UX designers for polished presentations." },
+            { "id": "previewed", "name": "Previewed", "url": "https://previewed.app", "description": "Mockup tool focused on creating 3D-style scenes for digital product showcases." },
+            { "id": "mockupbro", "name": "MockupBro", "url": "https://mockupbro.com", "description": "Free straightforward mockup generator for quickly creating professional device mockups." },
+            { "id": "device-frames", "name": "Device Frames", "url": "https://deviceframes.com", "description": "Tool for creating high-quality 3D device mockups with realistic frames." },
+            { "id": "dimmy-club", "name": "Dimmy.club", "url": "https://dimmy.club", "description": "User-friendly tool for quickly creating clean device mockups with a simple interface." },
+            { "id": "placeit", "name": "Placeit", "url": "https://placeit.net", "description": "Industry-standard generator for creating marketing mockups, videos, and apparel designs." },
+            { "id": "mockey-ai", "name": "Mockey", "url": "https://mockey.ai", "description": "AI-powered free mockup generator with a large library of templates for products and devices." }
+          ]
+        },
+        {
+          "id": "presentation-builders",
+          "label": "Presentation Builders",
+          "resources": [
+            { "id": "pitch", "name": "Pitch", "url": "https://pitch.com", "description": "Collaboration-first presentation tool for teams with real-time editing and version history." },
+            { "id": "beautiful-ai", "name": "Beautiful.ai", "url": "https://www.beautiful.ai", "description": "Smart slide technology that auto-adjusts layouts and typography for professional presentations." },
+            { "id": "gamma", "name": "Gamma", "url": "https://gamma.app", "description": "AI-first presentation creator generating visually striking decks from text prompts." },
+            { "id": "slidev", "name": "Slidev", "url": "https://sli.dev", "description": "Developer-focused markdown-to-slides tool for programmatic control over technical presentations." },
+            { "id": "slides-com", "name": "Slides.com", "url": "https://slides.com", "description": "Web-based presentation platform offering a solid balance of design control and collaboration." },
+            { "id": "prezi", "name": "Prezi", "url": "https://prezi.com", "description": "Unique zoomable non-linear canvas for engaging visual storytelling with dynamic navigation." },
+            { "id": "google-slides", "name": "Google Slides", "url": "https://slides.google.com", "description": "Free cloud-based presentation tool with real-time collaboration and Google Workspace integration." },
+            { "id": "keynote", "name": "Keynote", "url": "https://www.apple.com/keynote/", "description": "Apple's presentation app with powerful animations, cinematic transitions, and polished templates." },
+            { "id": "canva-presentations", "name": "Canva Presentations", "url": "https://www.canva.com/presentations/", "description": "Easy drag-and-drop presentation builder with thousands of templates and stock media assets." }
+          ]
+        },
+        {
+          "id": "screen-recording",
+          "label": "Screen Recording & GIFs",
+          "resources": [
+            { "id": "loom", "name": "Loom", "url": "https://www.loom.com", "description": "Quick async video messaging tool for teams with instant shareable links and AI summaries." },
+            { "id": "obs-studio", "name": "OBS Studio", "url": "https://obsproject.com", "description": "Free open-source professional recording and streaming software with total control over setups." },
+            { "id": "screen-studio", "name": "Screen Studio", "url": "https://www.screen.studio", "description": "Mac tool for creating polished product demos with automatic cursor smoothing and zooming." },
+            { "id": "kap", "name": "Kap", "url": "https://getkap.co", "description": "Free lightweight open-source GIF and video recorder for macOS living in the menu bar." },
+            { "id": "licecap", "name": "LICEcap", "url": "https://www.cockos.com/licecap/", "description": "Classic no-frills lightweight tool for quickly recording animated GIFs from your screen." },
+            { "id": "cleanshot-x", "name": "CleanShot X", "url": "https://cleanshot.com", "description": "All-in-one Mac powerhouse for screenshots, annotations, screen recording, and GIF creation." },
+            { "id": "sharex", "name": "ShareX", "url": "https://getsharex.com", "description": "Free open-source Windows power tool for screenshots, GIFs, and automated workflows." },
+            { "id": "cap", "name": "Cap", "url": "https://cap.so", "description": "Open-source screen recorder with studio mode for professional 4K recordings." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "assets",
+      "name": "Assets & Toolkits",
+      "slug": "assets",
+      "sections": [
+        {
+          "id": "ui-kits",
+          "label": "UI Kits",
+          "resources": [
+            { "id": "ui8", "name": "UI8", "url": "https://ui8.net", "description": "Major marketplace for premium design resources including UI kits, icons, and Figma templates." },
+            { "id": "creative-tim", "name": "Creative Tim", "url": "https://www.creative-tim.com", "description": "Fully coded UI kits, templates, and dashboards for React, Vue, Angular, and Tailwind CSS." },
+            { "id": "untitled-ui", "name": "Untitled UI", "url": "https://www.untitledui.com", "description": "Benchmark Figma design system with 10,000+ components for SaaS, dashboards, and enterprise apps." },
+            { "id": "tailwind-ui", "name": "Tailwind UI", "url": "https://tailwindcss.com/plus", "description": "Official Tailwind CSS component library with professionally designed responsive components." },
+            { "id": "figma-community", "name": "Figma Community", "url": "https://www.figma.com/community", "description": "Primary destination for free and premium Figma UI kits, design systems, and plugins." },
+            { "id": "shadcn-ui-kit", "name": "shadcn/ui", "url": "https://ui.shadcn.com", "description": "Popular open-source accessible component collection for React with Tailwind CSS and Radix UI." },
+            { "id": "flowbite", "name": "Flowbite", "url": "https://flowbite.com", "description": "Tailwind CSS component library with matching Figma design system for seamless workflow." }
+          ]
+        },
+        {
+          "id": "figma-plugins",
+          "label": "Figma Plugins",
+          "resources": [
+            { "id": "unsplash-figma", "name": "Unsplash", "url": "https://www.figma.com/community/plugin/738454987945972471", "description": "Insert high-quality royalty-free photos directly into your Figma designs." },
+            { "id": "iconify-figma", "name": "Iconify", "url": "https://www.figma.com/community/plugin/735098390272716381", "description": "Massive searchable library of 200,000+ SVG icons from Material Design, Font Awesome, and more." },
+            { "id": "autoflow", "name": "Autoflow", "url": "https://www.figma.com/community/plugin/733902567457592893", "description": "Quickly draw professional flow connectors between frames for user flows and diagrams." },
+            { "id": "content-reel", "name": "Content Reel", "url": "https://www.figma.com/community/plugin/731627216655469013", "description": "Populate designs with realistic dummy data including names, emails, avatars, and text." },
+            { "id": "stark-figma", "name": "Stark", "url": "https://www.figma.com/community/plugin/732603254453395948", "description": "Complete accessibility toolkit for contrast checking, color blindness simulation, and WCAG compliance." },
+            { "id": "contrast-figma", "name": "Contrast", "url": "https://www.figma.com/community/plugin/748533339900865323", "description": "Lightweight focused plugin for quick WCAG contrast ratio checks during the design process." },
+            { "id": "remove-bg", "name": "Remove BG", "url": "https://www.figma.com/community/plugin/738992712906748191", "description": "AI-powered background removal directly inside Figma for clean product photos and mockups." },
+            { "id": "tokens-studio-figma", "name": "Tokens Studio", "url": "https://www.figma.com/community/plugin/843461159747178978", "description": "Industry standard for managing design tokens and syncing with code repos." },
+            { "id": "design-lint", "name": "Design Lint", "url": "https://www.figma.com/community/plugin/801195587640428208", "description": "Free open-source tool for finding and fixing missing styles and inconsistencies." },
+            { "id": "rename-it", "name": "Rename It", "url": "https://www.figma.com/community/plugin/731271836271143349", "description": "Bulk rename layers and frames with powerful find-and-replace for organized design files." }
+          ]
+        },
+        {
+          "id": "templates",
+          "label": "Templates",
+          "resources": [
+            { "id": "themeforest", "name": "ThemeForest", "url": "https://themeforest.net", "description": "World's largest marketplace for website templates and WordPress themes." },
+            { "id": "framer-templates", "name": "Framer Templates", "url": "https://www.framer.com/templates/", "description": "Motion-heavy, interactive marketing site templates built on Framer's platform." },
+            { "id": "webflow-templates", "name": "Webflow Templates", "url": "https://webflow.com/templates", "description": "Professional templates with CMS integration for scalable websites built without code." },
+            { "id": "cruip", "name": "Cruip", "url": "https://cruip.com", "description": "High-quality modern HTML and Tailwind CSS templates optimized for startups and SaaS." },
+            { "id": "html5-up", "name": "HTML5 UP", "url": "https://html5up.net", "description": "Free fully responsive and clean HTML5/CSS3 templates providing solid minimalist foundations." },
+            { "id": "templatemo", "name": "Templatemo", "url": "https://templatemo.com", "description": "Reliable source of free simple and easy-to-customize CSS and HTML website templates." },
+            { "id": "colorlib", "name": "Colorlib", "url": "https://colorlib.com", "description": "Large library of hand-coded HTML, Bootstrap, and Tailwind CSS templates." },
+            { "id": "brix-templates", "name": "BRIX Templates", "url": "https://brixtemplates.com", "description": "Vast library of premium Webflow templates known for quality and professional support." },
+            { "id": "envato-elements", "name": "Envato Elements", "url": "https://elements.envato.com", "description": "Unlimited downloads subscription for templates, graphics, fonts, photos, and video assets." }
+          ]
+        }
+      ]
+    }
+  ]
+}

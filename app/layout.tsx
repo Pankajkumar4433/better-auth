@@ -30,16 +30,16 @@ export const metadata: Metadata = createMetadata({
 export default function RootLayout({ children }: { children: ReactNode }) {
 	return (
 		<html lang="en" suppressHydrationWarning data-scroll-behavior="smooth">
-			<head>
-				<script
+			<body
+				className={`${fontSans.variable} ${fontMono.variable} ${GeistPixelSquare.variable} font-sans antialiased`}
+				suppressHydrationWarning
+			>
+				{/* Theme color detection — runs before hydration to prevent flash */}
+				<Script
+					id="theme-color-script"
+					strategy="beforeInteractive"
 					dangerouslySetInnerHTML={{
-						__html: `
-                    try {
-                      if (localStorage.theme === 'dark' || ((!('theme' in localStorage) || localStorage.theme === 'system') && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-                        document.querySelector('meta[name="theme-color"]').setAttribute('content')
-                      }
-                    } catch (_) {}
-                  `,
+						__html: `try{if(localStorage.theme==='dark'||((!('theme' in localStorage)||localStorage.theme==='system')&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.querySelector('meta[name="theme-color"]')?.setAttribute('content','#000')}}catch(_){}`,
 					}}
 				/>
 				{process.env.NODE_ENV === "development" && (
@@ -61,11 +61,6 @@ export default function RootLayout({ children }: { children: ReactNode }) {
 						strategy="lazyOnload"
 					/>
 				)}
-			</head>
-			<body
-				className={`${fontSans.variable} ${fontMono.variable} ${GeistPixelSquare.variable} font-sans antialiased`}
-				suppressHydrationWarning
-			>
 				<Providers>
 					<div className="relative min-h-dvh">
 						<StaggeredNavFiles />

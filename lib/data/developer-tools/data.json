@@ -1,0 +1,459 @@
+{
+  "id": "developer-tools",
+  "name": "Developer Tools",
+  "slug": "developer-tools",
+  "description": "Top developer tools and utilities",
+  "subcategories": [
+    {
+      "id": "hosting",
+      "name": "Hosting & Deployment",
+      "slug": "hosting",
+      "sections": [
+        {
+          "id": "cloud-providers",
+          "label": "Cloud Providers",
+          "resources": [
+            { "id": "vercel", "name": "Vercel", "url": "https://vercel.com", "description": "Free hosting for frontend frameworks with serverless functions, edge network, and Git-based deploys." },
+            { "id": "netlify", "name": "Netlify", "url": "https://www.netlify.com", "description": "Free tier with 100GB bandwidth, serverless functions, forms, and continuous deployment from Git." },
+            { "id": "cloudflare-pages", "name": "Cloudflare Pages", "url": "https://pages.cloudflare.com", "description": "Free unlimited bandwidth static and full-stack hosting on Cloudflare's global edge network." },
+            { "id": "github-pages", "name": "GitHub Pages", "url": "https://pages.github.com", "description": "Free static site hosting directly from your GitHub repository with custom domain support." },
+            { "id": "render", "name": "Render", "url": "https://render.com", "description": "Free tier for static sites and web services with automatic deploys from Git." },
+            { "id": "railway", "name": "Railway", "url": "https://railway.app", "description": "Free trial credits for deploying apps, databases, and services with a beautiful dashboard." },
+            { "id": "fly-io", "name": "Fly.io", "url": "https://fly.io", "description": "Free tier with 3 shared VMs for deploying full-stack apps close to users globally." },
+            { "id": "surge", "name": "Surge.sh", "url": "https://surge.sh", "description": "Free single-command static web publishing for frontend developers with custom domains." },
+            { "id": "deno-deploy", "name": "Deno Deploy", "url": "https://deno.com/deploy", "description": "Free tier serverless platform for Deno/TypeScript with 100K requests/day on the edge." },
+            { "id": "gitlab-pages", "name": "GitLab Pages", "url": "https://docs.gitlab.com/ee/user/project/pages/", "description": "Free static site hosting integrated with GitLab CI/CD pipelines and custom domains." }
+          ]
+        },
+        {
+          "id": "paas",
+          "label": "Platform as a Service (PaaS)",
+          "resources": [
+            { "id": "coolify", "name": "Coolify", "url": "https://coolify.io", "description": "Free, open-source self-hostable alternative to Heroku/Netlify with one-click app deployments." },
+            { "id": "caprover", "name": "CapRover", "url": "https://caprover.com", "description": "Free, open-source PaaS that turns your VPS into a platform for deploying any app with one click." },
+            { "id": "dokku", "name": "Dokku", "url": "https://dokku.com", "description": "Free, open-source mini-Heroku powered by Docker for self-hosted PaaS on any VPS." },
+            { "id": "koyeb", "name": "Koyeb", "url": "https://www.koyeb.com", "description": "Free tier with nano instances for deploying apps globally with automatic scaling." },
+            { "id": "zeabur", "name": "Zeabur", "url": "https://zeabur.com", "description": "Free tier for deploying full-stack apps with one click, supporting multiple languages and frameworks." }
+          ]
+        },
+        {
+          "id": "serverless",
+          "label": "Serverless & Edge",
+          "resources": [
+            { "id": "cloudflare-workers", "name": "Cloudflare Workers", "url": "https://workers.cloudflare.com", "description": "Free 100K requests/day for serverless functions running on Cloudflare's global edge network." },
+            { "id": "vercel-edge", "name": "Vercel Edge Functions", "url": "https://vercel.com/docs/functions/edge-functions", "description": "Free edge functions included with Vercel's hobby plan for ultra-low latency compute." },
+            { "id": "netlify-functions", "name": "Netlify Functions", "url": "https://www.netlify.com/platform/core/functions/", "description": "Free 125K invocations/month of serverless functions with background and scheduled support." },
+            { "id": "supabase-edge", "name": "Supabase Edge Functions", "url": "https://supabase.com/docs/guides/functions", "description": "Free Deno-based edge functions included with Supabase's free tier for custom server logic." },
+            { "id": "aws-lambda", "name": "AWS Lambda", "url": "https://aws.amazon.com/lambda/", "description": "Free 1M requests/month forever with AWS's serverless compute platform." },
+            { "id": "val-town", "name": "Val Town", "url": "https://www.val.town", "description": "Free tier for writing and deploying small serverless functions (vals) with a social coding twist." }
+          ]
+        },
+        {
+          "id": "domain-registrars",
+          "label": "Domain Registrars",
+          "resources": [
+            { "id": "cloudflare-registrar", "name": "Cloudflare Registrar", "url": "https://www.cloudflare.com/products/registrar/", "description": "At-cost domain registration with zero markup — cheapest .com renewals with free DNS and SSL." },
+            { "id": "porkbun", "name": "Porkbun", "url": "https://porkbun.com", "description": "Affordable domain registrar with free WHOIS privacy, SSL, and email forwarding on all domains." },
+            { "id": "namecheap", "name": "Namecheap", "url": "https://www.namecheap.com", "description": "Budget-friendly registrar with free WHOIS privacy and a generous free DNS hosting plan." },
+            { "id": "spaceship", "name": "Spaceship", "url": "https://www.spaceship.com", "description": "Modern, developer-friendly domain registrar with competitive pricing and clean interface." },
+            { "id": "is-a-dev", "name": "is-a.dev", "url": "https://www.is-a.dev", "description": "Free .is-a.dev subdomains for developers via a simple GitHub pull request." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "frameworks",
+      "name": "Frameworks & Libraries",
+      "slug": "frameworks",
+      "sections": [
+        {
+          "id": "frontend",
+          "label": "Frontend Frameworks",
+          "resources": [
+            { "id": "react", "name": "React", "url": "https://react.dev", "description": "Free, open-source JavaScript library by Meta for building dynamic user interfaces with components." },
+            { "id": "nextjs", "name": "Next.js", "url": "https://nextjs.org", "description": "Free, open-source React framework with SSR, SSG, API routes, and file-based routing by Vercel." },
+            { "id": "vue", "name": "Vue.js", "url": "https://vuejs.org", "description": "Free, open-source progressive JavaScript framework for building UIs with an approachable API." },
+            { "id": "nuxt", "name": "Nuxt", "url": "https://nuxt.com", "description": "Free, open-source Vue framework with auto-imports, file-based routing, and hybrid rendering." },
+            { "id": "svelte", "name": "Svelte", "url": "https://svelte.dev", "description": "Free, open-source compiler that generates minimal vanilla JS — no virtual DOM overhead." },
+            { "id": "sveltekit", "name": "SvelteKit", "url": "https://kit.svelte.dev", "description": "Free, open-source full-stack Svelte framework with SSR, routing, and edge deployment support." },
+            { "id": "angular", "name": "Angular", "url": "https://angular.dev", "description": "Free, open-source TypeScript-based framework by Google for enterprise-scale web applications." },
+            { "id": "astro", "name": "Astro", "url": "https://astro.build", "description": "Free, open-source framework for content-driven sites with zero JS by default and island architecture." },
+            { "id": "solidjs", "name": "Solid.js", "url": "https://www.solidjs.com", "description": "Free, open-source reactive framework with fine-grained reactivity and no virtual DOM." },
+            { "id": "qwik", "name": "Qwik", "url": "https://qwik.dev", "description": "Free, open-source framework with instant-loading via resumability instead of hydration." },
+            { "id": "remix", "name": "Remix", "url": "https://remix.run", "description": "Free, open-source full-stack React framework focused on web standards and progressive enhancement." },
+            { "id": "preact", "name": "Preact", "url": "https://preactjs.com", "description": "Free 3KB React alternative with the same API — perfect for performance-critical applications." },
+            { "id": "alpinejs", "name": "Alpine.js", "url": "https://alpinejs.dev", "description": "Free, lightweight 15KB reactive framework for adding interactivity directly in HTML markup." },
+            { "id": "htmx", "name": "HTMX", "url": "https://htmx.org", "description": "Free, open-source library for AJAX, WebSockets, and SSE directly from HTML attributes." }
+          ]
+        },
+        {
+          "id": "backend",
+          "label": "Backend Frameworks",
+          "resources": [
+            { "id": "expressjs", "name": "Express.js", "url": "https://expressjs.com", "description": "Free, open-source minimal Node.js web framework — the most popular backend for JavaScript." },
+            { "id": "fastify", "name": "Fastify", "url": "https://fastify.dev", "description": "Free, open-source high-performance Node.js web framework with schema-based validation." },
+            { "id": "hono", "name": "Hono", "url": "https://hono.dev", "description": "Free, ultrafast web framework for Cloudflare Workers, Deno, Bun, and Node.js with zero deps." },
+            { "id": "elysia", "name": "Elysia", "url": "https://elysiajs.com", "description": "Free, open-source TypeScript framework for Bun with end-to-end type safety and best-in-class DX." },
+            { "id": "nestjs", "name": "NestJS", "url": "https://nestjs.com", "description": "Free, open-source progressive Node.js framework for scalable server-side apps with TypeScript." },
+            { "id": "django", "name": "Django", "url": "https://www.djangoproject.com", "description": "Free, open-source Python web framework with batteries-included ORM, auth, and admin panel." },
+            { "id": "flask", "name": "Flask", "url": "https://flask.palletsprojects.com", "description": "Free, lightweight Python micro-framework for building APIs and web apps with minimal boilerplate." },
+            { "id": "fastapi", "name": "FastAPI", "url": "https://fastapi.tiangolo.com", "description": "Free, modern Python web framework with automatic OpenAPI docs and async support." },
+            { "id": "laravel", "name": "Laravel", "url": "https://laravel.com", "description": "Free, open-source PHP framework with elegant syntax, Eloquent ORM, and a massive ecosystem." },
+            { "id": "rails", "name": "Ruby on Rails", "url": "https://rubyonrails.org", "description": "Free, open-source full-stack Ruby framework with convention-over-configuration philosophy." },
+            { "id": "go-fiber", "name": "Fiber", "url": "https://gofiber.io", "description": "Free, open-source Go web framework inspired by Express — extremely fast and lightweight." },
+            { "id": "spring-boot", "name": "Spring Boot", "url": "https://spring.io/projects/spring-boot", "description": "Free, open-source Java framework for production-ready microservices with minimal configuration." }
+          ]
+        },
+        {
+          "id": "css",
+          "label": "CSS Frameworks",
+          "resources": [
+            { "id": "tailwindcss", "name": "Tailwind CSS", "url": "https://tailwindcss.com", "description": "Free, open-source utility-first CSS framework for rapid custom UI development." },
+            { "id": "bootstrap", "name": "Bootstrap", "url": "https://getbootstrap.com", "description": "Free, open-source CSS framework with pre-built responsive components and grid system." },
+            { "id": "bulma", "name": "Bulma", "url": "https://bulma.io", "description": "Free, modern CSS framework based on Flexbox with no JavaScript dependencies." },
+            { "id": "daisyui", "name": "DaisyUI", "url": "https://daisyui.com", "description": "Free Tailwind CSS component library with 30+ themes and semantic class names." },
+            { "id": "pico-css", "name": "Pico CSS", "url": "https://picocss.com", "description": "Free minimal CSS framework with semantic HTML styling — no classes needed for beautiful defaults." },
+            { "id": "open-props", "name": "Open Props", "url": "https://open-props.style", "description": "Free CSS custom properties (variables) library for consistent, themeable design tokens." },
+            { "id": "unocss", "name": "UnoCSS", "url": "https://unocss.dev", "description": "Free, instant on-demand atomic CSS engine with full customization and framework presets." },
+            { "id": "shadcn-ui-css", "name": "shadcn/ui", "url": "https://ui.shadcn.com", "description": "Free, copy-paste React component collection built on Radix and Tailwind with full code ownership." }
+          ]
+        },
+        {
+          "id": "state-management",
+          "label": "State Management",
+          "resources": [
+            { "id": "zustand", "name": "Zustand", "url": "https://zustand-demo.pmnd.rs", "description": "Free, tiny (1KB) React state management with a simple hooks-based API and no boilerplate." },
+            { "id": "jotai", "name": "Jotai", "url": "https://jotai.org", "description": "Free, primitive and flexible atomic state management for React with minimal API surface." },
+            { "id": "redux-toolkit", "name": "Redux Toolkit", "url": "https://redux-toolkit.js.org", "description": "Free, official Redux toolset with simplified store setup, reducers, and async logic." },
+            { "id": "pinia", "name": "Pinia", "url": "https://pinia.vuejs.org", "description": "Free, official Vue.js store with DevTools support, TypeScript inference, and modular design." },
+            { "id": "valtio", "name": "Valtio", "url": "https://valtio.pmnd.rs", "description": "Free, proxy-based state management for React that makes mutable state reactive and immutable." },
+            { "id": "xstate", "name": "XState", "url": "https://xstate.js.org", "description": "Free, open-source state machine library for managing complex application logic visually." },
+            { "id": "tanstack-query", "name": "TanStack Query", "url": "https://tanstack.com/query", "description": "Free, powerful async state management for fetching, caching, and syncing server data." },
+            { "id": "nanostores", "name": "Nanostores", "url": "https://github.com/nanostores/nanostores", "description": "Free, tiny state manager (300 bytes) that works with React, Vue, Svelte, and vanilla JS." }
+          ]
+        },
+        {
+          "id": "animation",
+          "label": "Animation Libraries",
+          "resources": [
+            { "id": "framer-motion", "name": "Framer Motion", "url": "https://www.framer.com/motion/", "description": "Free, open-source production-ready animation library for React with gesture support." },
+            { "id": "gsap", "name": "GSAP", "url": "https://gsap.com", "description": "Free for non-commercial use — the most robust JavaScript animation library for the web." },
+            { "id": "animejs", "name": "Anime.js", "url": "https://animejs.com", "description": "Free, lightweight JavaScript animation library for CSS, SVG, DOM, and JS object animations." },
+            { "id": "lottie", "name": "Lottie", "url": "https://airbnb.io/lottie/", "description": "Free, open-source library by Airbnb for rendering After Effects animations natively on web/mobile." },
+            { "id": "motion-one", "name": "Motion One", "url": "https://motion.dev", "description": "Free, tiny (2.5KB) animation library built on the Web Animations API for performant animations." },
+            { "id": "auto-animate", "name": "AutoAnimate", "url": "https://auto-animate.formkit.com", "description": "Free, zero-config drop-in animation library that adds smooth transitions to any web app." },
+            { "id": "react-spring", "name": "React Spring", "url": "https://www.react-spring.dev", "description": "Free, physics-based animation library for React with natural, fluid spring animations." },
+            { "id": "theatre-js", "name": "Theatre.js", "url": "https://www.theatrejs.com", "description": "Free, open-source motion design editor for creating cinematic 3D and DOM animations." },
+            { "id": "rive", "name": "Rive", "url": "https://rive.app", "description": "Free tier for creating interactive animations and state machines for apps and games." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "databases",
+      "name": "Databases & Storage",
+      "slug": "databases",
+      "sections": [
+        {
+          "id": "sql",
+          "label": "SQL Databases",
+          "resources": [
+            { "id": "postgresql", "name": "PostgreSQL", "url": "https://www.postgresql.org", "description": "Free, open-source advanced relational database with JSON support and extensibility." },
+            { "id": "mysql", "name": "MySQL", "url": "https://www.mysql.com", "description": "Free, open-source relational database — the world's most popular open-source RDBMS." },
+            { "id": "sqlite", "name": "SQLite", "url": "https://www.sqlite.org", "description": "Free, serverless, zero-config embedded SQL database engine used in billions of devices." },
+            { "id": "mariadb", "name": "MariaDB", "url": "https://mariadb.org", "description": "Free, open-source MySQL-compatible database with enhanced performance and features." },
+            { "id": "neon", "name": "Neon", "url": "https://neon.tech", "description": "Free tier serverless Postgres with branching, autoscaling, and generous free 0.5 GB storage." },
+            { "id": "planetscale", "name": "PlanetScale", "url": "https://planetscale.com", "description": "Free tier MySQL-compatible serverless database with branching and non-blocking schema changes." },
+            { "id": "turso", "name": "Turso", "url": "https://turso.tech", "description": "Free tier with 9GB storage — SQLite at the edge with embedded replicas for ultra-low latency." },
+            { "id": "cockroachdb", "name": "CockroachDB", "url": "https://www.cockroachlabs.com", "description": "Free tier distributed SQL database with automatic sharding and multi-region resilience." }
+          ]
+        },
+        {
+          "id": "nosql",
+          "label": "NoSQL Databases",
+          "resources": [
+            { "id": "mongodb-atlas", "name": "MongoDB Atlas", "url": "https://www.mongodb.com/atlas", "description": "Free 512MB cluster — fully managed document database with flexible schemas and powerful queries." },
+            { "id": "redis", "name": "Redis", "url": "https://redis.io", "description": "Free, open-source in-memory data store for caching, sessions, queues, and real-time apps." },
+            { "id": "firebase-db", "name": "Firebase Realtime DB", "url": "https://firebase.google.com/products/realtime-database", "description": "Free tier with 1GB storage — Google's real-time NoSQL cloud database with offline sync." },
+            { "id": "surrealdb", "name": "SurrealDB", "url": "https://surrealdb.com", "description": "Free, open-source multi-model database (document, graph, relational) with real-time queries." },
+            { "id": "couchdb", "name": "CouchDB", "url": "https://couchdb.apache.org", "description": "Free, open-source document database with multi-master sync and RESTful HTTP API." },
+            { "id": "firestore", "name": "Cloud Firestore", "url": "https://firebase.google.com/products/firestore", "description": "Free tier with 1GiB storage — serverless NoSQL document database by Google with real-time sync." }
+          ]
+        },
+        {
+          "id": "baas",
+          "label": "Backend as a Service (BaaS)",
+          "resources": [
+            { "id": "supabase", "name": "Supabase", "url": "https://supabase.com", "description": "Free tier with 500MB — open-source Firebase alternative with Postgres, Auth, Storage, and Realtime." },
+            { "id": "firebase", "name": "Firebase", "url": "https://firebase.google.com", "description": "Free Spark plan — Google's app platform with auth, database, storage, hosting, and analytics." },
+            { "id": "appwrite", "name": "Appwrite", "url": "https://appwrite.io", "description": "Free, open-source BaaS with auth, database, storage, functions, and messaging for any platform." },
+            { "id": "pocketbase", "name": "PocketBase", "url": "https://pocketbase.io", "description": "Free, open-source Go backend in a single file with SQLite, auth, file storage, and admin UI." },
+            { "id": "convex", "name": "Convex", "url": "https://www.convex.dev", "description": "Free tier reactive BaaS with real-time sync, serverless functions, and automatic caching." },
+            { "id": "nhost", "name": "Nhost", "url": "https://nhost.io", "description": "Free tier open-source Firebase alternative with GraphQL, Postgres, auth, and storage." }
+          ]
+        },
+        {
+          "id": "caching",
+          "label": "Caching & Redis",
+          "resources": [
+            { "id": "upstash", "name": "Upstash", "url": "https://upstash.com", "description": "Free tier serverless Redis and Kafka with 10K commands/day and per-request pricing." },
+            { "id": "redis-cache", "name": "Redis", "url": "https://redis.io", "description": "Free, open-source in-memory key-value store — the industry standard for caching." },
+            { "id": "dragonfly", "name": "Dragonfly", "url": "https://www.dragonflydb.io", "description": "Free, open-source Redis-compatible in-memory store with 25x better throughput." },
+            { "id": "keydb", "name": "KeyDB", "url": "https://docs.keydb.dev", "description": "Free, open-source multi-threaded Redis fork with up to 5x higher throughput." },
+            { "id": "memcached", "name": "Memcached", "url": "https://memcached.org", "description": "Free, open-source distributed memory caching system for speeding up dynamic web apps." }
+          ]
+        },
+        {
+          "id": "object-storage",
+          "label": "Object Storage",
+          "resources": [
+            { "id": "cloudflare-r2", "name": "Cloudflare R2", "url": "https://www.cloudflare.com/developer-platform/r2/", "description": "Free 10GB storage with zero egress fees — S3-compatible object storage on Cloudflare." },
+            { "id": "backblaze-b2", "name": "Backblaze B2", "url": "https://www.backblaze.com/cloud-storage", "description": "Free 10GB storage — affordable S3-compatible cloud storage with Cloudflare bandwidth alliance." },
+            { "id": "minio", "name": "MinIO", "url": "https://min.io", "description": "Free, open-source high-performance S3-compatible object storage for self-hosting." },
+            { "id": "supabase-storage", "name": "Supabase Storage", "url": "https://supabase.com/storage", "description": "Free 1GB storage included with Supabase free tier — S3-compatible with CDN and transforms." },
+            { "id": "uploadthing", "name": "UploadThing", "url": "https://uploadthing.com", "description": "Free 2GB storage — file upload service built for Next.js and TypeScript developers." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dev-utilities",
+      "name": "Dev Utilities",
+      "slug": "dev-utilities",
+      "sections": [
+        {
+          "id": "api-clients",
+          "label": "API Clients",
+          "resources": [
+            { "id": "hoppscotch", "name": "Hoppscotch", "url": "https://hoppscotch.io", "description": "Free, open-source API development ecosystem with REST, GraphQL, WebSocket, and SSE testing." },
+            { "id": "postman", "name": "Postman", "url": "https://www.postman.com", "description": "Free tier API platform for building, testing, and documenting APIs with collaboration tools." },
+            { "id": "insomnia", "name": "Insomnia", "url": "https://insomnia.rest", "description": "Free, open-source API client for REST, GraphQL, gRPC, and WebSocket with Git sync." },
+            { "id": "bruno", "name": "Bruno", "url": "https://www.usebruno.com", "description": "Free, open-source offline-first API client that stores collections in your filesystem via Git." },
+            { "id": "thunder-client", "name": "Thunder Client", "url": "https://www.thunderclient.com", "description": "Free lightweight REST API client extension for VS Code with a clean, simple interface." },
+            { "id": "httpie", "name": "HTTPie", "url": "https://httpie.io", "description": "Free, open-source user-friendly command-line HTTP client with JSON support and syntax highlighting." },
+            { "id": "rapidapi", "name": "RapidAPI", "url": "https://rapidapi.com", "description": "Free tier API hub for discovering, testing, and connecting to thousands of APIs." }
+          ]
+        },
+        {
+          "id": "terminal",
+          "label": "Terminal & CLI Tools",
+          "resources": [
+            { "id": "warp", "name": "Warp", "url": "https://www.warp.dev", "description": "Free modern terminal with AI command search, block-based output, and IDE-like editing." },
+            { "id": "windows-terminal", "name": "Windows Terminal", "url": "https://github.com/microsoft/terminal", "description": "Free, open-source modern terminal by Microsoft with tabs, GPU rendering, and customization." },
+            { "id": "iterm2", "name": "iTerm2", "url": "https://iterm2.com", "description": "Free, feature-rich macOS terminal replacement with split panes, search, and triggers." },
+            { "id": "starship", "name": "Starship", "url": "https://starship.rs", "description": "Free, open-source blazing-fast cross-shell prompt with rich status info and minimal config." },
+            { "id": "oh-my-zsh", "name": "Oh My Zsh", "url": "https://ohmyz.sh", "description": "Free, open-source Zsh configuration framework with 300+ plugins and 150+ themes." },
+            { "id": "zoxide", "name": "zoxide", "url": "https://github.com/ajeetdsouza/zoxide", "description": "Free, open-source smarter cd command that learns your most visited directories." },
+            { "id": "fzf", "name": "fzf", "url": "https://github.com/junegunn/fzf", "description": "Free, open-source command-line fuzzy finder for files, history, and processes." },
+            { "id": "bat", "name": "bat", "url": "https://github.com/sharkdp/bat", "description": "Free, open-source cat clone with syntax highlighting, Git integration, and line numbers." },
+            { "id": "eza", "name": "eza", "url": "https://eza.rocks", "description": "Free, open-source modern replacement for ls with colors, icons, Git status, and tree view." },
+            { "id": "tldr", "name": "tldr pages", "url": "https://tldr.sh", "description": "Free, community-maintained simplified man pages with practical command examples." }
+          ]
+        },
+        {
+          "id": "regex",
+          "label": "Regex Testers",
+          "resources": [
+            { "id": "regex101", "name": "Regex101", "url": "https://regex101.com", "description": "Free online regex tester with real-time explanation, debugger, and code generation." },
+            { "id": "regexr", "name": "RegExr", "url": "https://regexr.com", "description": "Free online tool for learning, building, and testing regular expressions with community patterns." },
+            { "id": "ihateregex", "name": "iHateRegex", "url": "https://ihateregex.io", "description": "Free visual regex cheatsheet with common patterns for email, URL, phone, and more." },
+            { "id": "debuggex", "name": "Debuggex", "url": "https://www.debuggex.com", "description": "Free online visual regex tester that shows railroad diagrams for pattern visualization." },
+            { "id": "regexlib", "name": "RegExLib", "url": "https://regexlib.com", "description": "Free searchable library of thousands of community-contributed regular expression patterns." }
+          ]
+        },
+        {
+          "id": "formatters",
+          "label": "Code & JSON Formatters",
+          "resources": [
+            { "id": "prettier", "name": "Prettier", "url": "https://prettier.io", "description": "Free, open-source opinionated code formatter supporting JS, TS, CSS, HTML, JSON, and more." },
+            { "id": "json-crack", "name": "JSON Crack", "url": "https://jsoncrack.com", "description": "Free, open-source tool to visualize JSON, YAML, XML, and CSV data as interactive graphs." },
+            { "id": "jsonlint", "name": "JSONLint", "url": "https://jsonlint.com", "description": "Free online JSON validator and formatter to verify and beautify JSON data." },
+            { "id": "code-beautify", "name": "Code Beautify", "url": "https://codebeautify.org", "description": "Free online tool for formatting, validating, and converting code in 100+ languages." },
+            { "id": "biome", "name": "Biome", "url": "https://biomejs.dev", "description": "Free, open-source ultra-fast formatter and linter for JS, TS, JSON — Prettier + ESLint alternative." },
+            { "id": "transform-tools", "name": "Transform", "url": "https://transform.tools", "description": "Free online tool to convert between JSON, TypeScript, GraphQL, CSS, and many other formats." }
+          ]
+        },
+        {
+          "id": "tunneling",
+          "label": "Local Tunneling",
+          "resources": [
+            { "id": "ngrok", "name": "ngrok", "url": "https://ngrok.com", "description": "Free tier with 1 agent — expose local servers to the internet with HTTPS tunnels." },
+            { "id": "cloudflare-tunnel", "name": "Cloudflare Tunnel", "url": "https://www.cloudflare.com/products/tunnel/", "description": "Free unlimited tunnels to securely expose local services without opening firewall ports." },
+            { "id": "localtunnel", "name": "localtunnel", "url": "https://theboroer.github.io/localtunnel-www/", "description": "Free, open-source tool to share your localhost with a public URL — zero setup required." },
+            { "id": "localhost-run", "name": "localhost.run", "url": "https://localhost.run", "description": "Free instant localhost tunnels via SSH — no installation, just one command." },
+            { "id": "tailscale-funnel", "name": "Tailscale Funnel", "url": "https://tailscale.com/kb/1223/funnel", "description": "Free with Tailscale — securely expose local services to the internet via your Tailscale network." },
+            { "id": "serveo", "name": "Serveo", "url": "https://serveo.net", "description": "Free SSH-based localhost tunnel with custom subdomains — no installation needed." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "version-control",
+      "name": "Version Control",
+      "slug": "version-control",
+      "sections": [
+        {
+          "id": "git-hosting",
+          "label": "Git Hosting",
+          "resources": [
+            { "id": "github", "name": "GitHub", "url": "https://github.com", "description": "Free unlimited public/private repos, Actions CI/CD, Codespaces, and the world's largest dev community." },
+            { "id": "gitlab", "name": "GitLab", "url": "https://gitlab.com", "description": "Free tier with 5GB storage, built-in CI/CD pipelines, container registry, and issue tracking." },
+            { "id": "bitbucket", "name": "Bitbucket", "url": "https://bitbucket.org", "description": "Free for up to 5 users with unlimited private repos and Jira/Trello integration." },
+            { "id": "codeberg", "name": "Codeberg", "url": "https://codeberg.org", "description": "Free, non-profit Gitea-based forge for open-source projects with CI/CD and Pages." },
+            { "id": "gitea", "name": "Gitea", "url": "https://gitea.com", "description": "Free, open-source self-hosted Git service — lightweight alternative to GitHub/GitLab." },
+            { "id": "sourcehut", "name": "SourceHut", "url": "https://sr.ht", "description": "Free for public projects — minimalist, email-driven open-source software forge." }
+          ]
+        },
+        {
+          "id": "git-clients",
+          "label": "Git Clients",
+          "resources": [
+            { "id": "github-desktop", "name": "GitHub Desktop", "url": "https://desktop.github.com", "description": "Free, open-source GUI Git client by GitHub with clean UI and seamless GitHub integration." },
+            { "id": "sourcetree", "name": "Sourcetree", "url": "https://www.sourcetreeapp.com", "description": "Free Git GUI client by Atlassian with visual branching, merging, and repository management." },
+            { "id": "gitkraken", "name": "GitKraken", "url": "https://www.gitkraken.com", "description": "Free for public repos — powerful Git GUI with visual commit graph and merge conflict editor." },
+            { "id": "lazygit", "name": "Lazygit", "url": "https://github.com/jesseduffield/lazygit", "description": "Free, open-source terminal UI for Git with keyboard-driven workflow and interactive rebase." },
+            { "id": "gitui", "name": "GitUI", "url": "https://github.com/extrawurst/gitui", "description": "Free, open-source blazing-fast terminal Git client written in Rust with intuitive keybindings." },
+            { "id": "fork", "name": "Fork", "url": "https://git-fork.com", "description": "Free Git GUI client for Mac and Windows with fast performance and intuitive merge conflict tool." }
+          ]
+        },
+        {
+          "id": "issue-tracking",
+          "label": "Issue Tracking",
+          "resources": [
+            { "id": "github-issues", "name": "GitHub Issues", "url": "https://github.com/features/issues", "description": "Free built-in issue tracking with labels, milestones, projects boards, and automation." },
+            { "id": "linear", "name": "Linear", "url": "https://linear.app", "description": "Free for up to 250 issues — lightning-fast project management tool loved by engineering teams." },
+            { "id": "plane", "name": "Plane", "url": "https://plane.so", "description": "Free, open-source Jira alternative with issues, cycles, modules, and custom workflows." },
+            { "id": "jira-free", "name": "Jira", "url": "https://www.atlassian.com/software/jira", "description": "Free for up to 10 users — industry-standard agile project management and issue tracking." },
+            { "id": "trello", "name": "Trello", "url": "https://trello.com", "description": "Free Kanban-style project management with unlimited cards, members, and power-ups." },
+            { "id": "notion", "name": "Notion", "url": "https://www.notion.so", "description": "Free for personal use — all-in-one workspace for docs, databases, tasks, and wikis." },
+            { "id": "height", "name": "Height", "url": "https://height.app", "description": "Free for small teams — AI-powered project management with autonomous task triaging." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "editors",
+      "name": "Code Editors & IDEs",
+      "slug": "editors",
+      "sections": [
+        {
+          "id": "code-editors",
+          "label": "Code Editors",
+          "resources": [
+            { "id": "vscode", "name": "VS Code", "url": "https://code.visualstudio.com", "description": "Free, open-source code editor by Microsoft with massive extension ecosystem and IntelliSense." },
+            { "id": "zed", "name": "Zed", "url": "https://zed.dev", "description": "Free, open-source high-performance code editor built in Rust with real-time multiplayer editing." },
+            { "id": "neovim", "name": "Neovim", "url": "https://neovim.io", "description": "Free, open-source hyperextensible Vim-based text editor with Lua plugin system and LSP support." },
+            { "id": "cursor", "name": "Cursor", "url": "https://cursor.com", "description": "Free tier AI-powered code editor forked from VS Code with built-in AI chat and autocomplete." },
+            { "id": "sublime-text", "name": "Sublime Text", "url": "https://www.sublimetext.com", "description": "Free unlimited evaluation — ultra-fast text editor with multi-cursor, goto-anything, and plugins." },
+            { "id": "helix", "name": "Helix", "url": "https://helix-editor.com", "description": "Free, open-source post-modern modal text editor with built-in LSP, tree-sitter, and multi-selections." },
+            { "id": "lapce", "name": "Lapce", "url": "https://lapce.dev", "description": "Free, open-source lightning-fast code editor written in Rust with remote development support." },
+            { "id": "vscodium", "name": "VSCodium", "url": "https://vscodium.com", "description": "Free, open-source binary of VS Code without Microsoft telemetry — same features, more privacy." }
+          ]
+        },
+        {
+          "id": "extensions",
+          "label": "Must-have Extensions",
+          "resources": [
+            { "id": "eslint", "name": "ESLint", "url": "https://eslint.org", "description": "Free, open-source JavaScript/TypeScript linter for finding and fixing code quality issues." },
+            { "id": "prettier-ext", "name": "Prettier Extension", "url": "https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode", "description": "Free VS Code extension for automatic code formatting on save with Prettier." },
+            { "id": "gitlens", "name": "GitLens", "url": "https://gitlens.amod.io", "description": "Free VS Code extension for Git blame, history, comparisons, and repository visualization." },
+            { "id": "error-lens", "name": "Error Lens", "url": "https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens", "description": "Free VS Code extension that highlights errors and warnings inline next to the code." },
+            { "id": "auto-rename-tag", "name": "Auto Rename Tag", "url": "https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag", "description": "Free VS Code extension that automatically renames paired HTML/XML tags." },
+            { "id": "indent-rainbow", "name": "Indent Rainbow", "url": "https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow", "description": "Free VS Code extension that colorizes indentation levels for better code readability." },
+            { "id": "todo-highlight", "name": "TODO Highlight", "url": "https://marketplace.visualstudio.com/items?itemName=wayou.vscode-todo-highlight", "description": "Free VS Code extension that highlights TODO, FIXME, and other annotations in your code." },
+            { "id": "tailwind-intellisense", "name": "Tailwind CSS IntelliSense", "url": "https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss", "description": "Free VS Code extension with autocomplete, linting, and class sorting for Tailwind CSS." }
+          ]
+        },
+        {
+          "id": "ai-coding",
+          "label": "AI Coding Assistants",
+          "resources": [
+            { "id": "github-copilot", "name": "GitHub Copilot", "url": "https://github.com/features/copilot", "description": "Free for students/OSS — AI pair programmer with code completions and chat in your editor." },
+            { "id": "codeium", "name": "Codeium", "url": "https://codeium.com", "description": "Free forever AI code autocomplete for 70+ languages with chat and VS Code/JetBrains support." },
+            { "id": "tabnine", "name": "Tabnine", "url": "https://www.tabnine.com", "description": "Free tier AI code assistant with context-aware completions and privacy-first local processing." },
+            { "id": "cody", "name": "Cody by Sourcegraph", "url": "https://sourcegraph.com/cody", "description": "Free tier AI assistant with codebase-aware chat, autocomplete, and inline edits." },
+            { "id": "supermaven", "name": "Supermaven", "url": "https://supermaven.com", "description": "Free tier ultra-fast AI autocomplete with 300K token context window for better suggestions." },
+            { "id": "continue", "name": "Continue", "url": "https://continue.dev", "description": "Free, open-source AI code assistant for VS Code/JetBrains — use any LLM as your copilot." },
+            { "id": "codewhisperer", "name": "Amazon Q Developer", "url": "https://aws.amazon.com/q/developer/", "description": "Free individual tier AI coding assistant by AWS with code suggestions and security scanning." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "monitoring",
+      "name": "Monitoring & Analytics",
+      "slug": "monitoring",
+      "sections": [
+        {
+          "id": "error-tracking",
+          "label": "Error Tracking",
+          "resources": [
+            { "id": "sentry", "name": "Sentry", "url": "https://sentry.io", "description": "Free tier with 5K errors/month — industry-standard error tracking with stack traces and releases." },
+            { "id": "highlight-io", "name": "Highlight.io", "url": "https://www.highlight.io", "description": "Free, open-source full-stack monitoring with session replay, error tracking, and logging." },
+            { "id": "logrocket", "name": "LogRocket", "url": "https://logrocket.com", "description": "Free tier with 1K sessions/month — session replay with error tracking and performance monitoring." },
+            { "id": "bugsnag", "name": "Bugsnag", "url": "https://www.bugsnag.com", "description": "Free tier with 7.5K events/month — error monitoring with release tracking and breadcrumbs." },
+            { "id": "glitchtip", "name": "GlitchTip", "url": "https://glitchtip.com", "description": "Free, open-source Sentry-compatible error tracking that you can self-host." }
+          ]
+        },
+        {
+          "id": "analytics",
+          "label": "Web Analytics",
+          "resources": [
+            { "id": "umami", "name": "Umami", "url": "https://umami.is", "description": "Free, open-source privacy-focused web analytics — self-host or use the free cloud tier." },
+            { "id": "plausible", "name": "Plausible", "url": "https://plausible.io", "description": "Free to self-host — lightweight, privacy-friendly Google Analytics alternative under 1KB." },
+            { "id": "posthog", "name": "PostHog", "url": "https://posthog.com", "description": "Free 1M events/month — open-source product analytics with session replay and feature flags." },
+            { "id": "google-analytics", "name": "Google Analytics", "url": "https://analytics.google.com", "description": "Free, powerful web analytics by Google with audience insights, conversion tracking, and reports." },
+            { "id": "matomo", "name": "Matomo", "url": "https://matomo.org", "description": "Free to self-host — open-source Google Analytics alternative with full data ownership." },
+            { "id": "mixpanel", "name": "Mixpanel", "url": "https://mixpanel.com", "description": "Free up to 20M events/month — product analytics for tracking user behavior and funnels." },
+            { "id": "pirsch", "name": "Pirsch", "url": "https://pirsch.io", "description": "Free tier with 10K pageviews/month — privacy-friendly, cookie-free web analytics." }
+          ]
+        },
+        {
+          "id": "uptime",
+          "label": "Uptime Monitoring",
+          "resources": [
+            { "id": "uptime-kuma", "name": "Uptime Kuma", "url": "https://uptime.kuma.pet", "description": "Free, open-source self-hosted monitoring tool with a beautiful UI and notification integrations." },
+            { "id": "uptimerobot", "name": "UptimeRobot", "url": "https://uptimerobot.com", "description": "Free 50 monitors with 5-min intervals — the most popular free uptime monitoring service." },
+            { "id": "better-uptime", "name": "Better Uptime", "url": "https://betteruptime.com", "description": "Free tier with 10 monitors — beautiful status pages with incident management and alerting." },
+            { "id": "freshping", "name": "Freshping", "url": "https://www.freshworks.com/website-monitoring/", "description": "Free 50 URL checks with 1-min intervals, multi-location monitoring, and public status pages." },
+            { "id": "statuscake", "name": "StatusCake", "url": "https://www.statuscake.com", "description": "Free tier with unlimited tests — uptime monitoring with page speed, SSL, and domain checks." },
+            { "id": "hetrix-tools", "name": "Hetrix Tools", "url": "https://hetrixtools.com", "description": "Free 15 monitors with 1-min intervals — uptime, blacklist, and SSL monitoring." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "security",
+      "name": "Auth & Security",
+      "slug": "security",
+      "sections": [
+        {
+          "id": "auth-providers",
+          "label": "Authentication Providers",
+          "resources": [
+            { "id": "authjs", "name": "Auth.js (NextAuth)", "url": "https://authjs.dev", "description": "Free, open-source authentication library for Next.js, SvelteKit, and other frameworks." },
+            { "id": "lucia", "name": "Lucia", "url": "https://lucia-auth.com", "description": "Free, open-source auth library for any runtime — simple, flexible, and framework-agnostic." },
+            { "id": "clerk", "name": "Clerk", "url": "https://clerk.com", "description": "Free up to 10K MAUs — drop-in auth with pre-built UI components, MFA, and user management." },
+            { "id": "supabase-auth", "name": "Supabase Auth", "url": "https://supabase.com/auth", "description": "Free with Supabase — Postgres-based auth with social login, MFA, and row-level security." },
+            { "id": "firebase-auth", "name": "Firebase Auth", "url": "https://firebase.google.com/products/auth", "description": "Free unlimited users — Google's auth service with social login, email, phone, and anonymous auth." },
+            { "id": "keycloak", "name": "Keycloak", "url": "https://www.keycloak.org", "description": "Free, open-source IAM by Red Hat with SSO, social login, LDAP, and fine-grained authorization." },
+            { "id": "auth0", "name": "Auth0", "url": "https://auth0.com", "description": "Free up to 7.5K MAUs — enterprise-grade identity platform with universal login and MFA." },
+            { "id": "logto", "name": "Logto", "url": "https://logto.io", "description": "Free, open-source Auth0 alternative with beautiful UI, RBAC, multi-tenancy, and webhooks." }
+          ]
+        },
+        {
+          "id": "secret-management",
+          "label": "Secret Management",
+          "resources": [
+            { "id": "infisical", "name": "Infisical", "url": "https://infisical.com", "description": "Free for up to 5 members — open-source secret management with E2E encryption and CI/CD sync." },
+            { "id": "doppler", "name": "Doppler", "url": "https://www.doppler.com", "description": "Free for 5 users — universal secrets manager with environment sync and team sharing." },
+            { "id": "dotenv-vault", "name": "dotenv-vault", "url": "https://www.dotenv.org", "description": "Free tier — sync .env files securely across teams with encryption and CI/CD integration." },
+            { "id": "hashicorp-vault", "name": "HashiCorp Vault", "url": "https://www.vaultproject.io", "description": "Free, open-source secrets management with dynamic credentials, encryption, and access control." },
+            { "id": "sops", "name": "SOPS", "url": "https://github.com/getsops/sops", "description": "Free, open-source tool by Mozilla for encrypting secrets in YAML, JSON, and binary files via Git." },
+            { "id": "git-crypt", "name": "git-crypt", "url": "https://github.com/AGWA/git-crypt", "description": "Free, open-source transparent encryption for files in a Git repository using GPG keys." }
+          ]
+        }
+      ]
+    }
+  ]
+}

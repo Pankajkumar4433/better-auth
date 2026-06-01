@@ -17,6 +17,7 @@ import { getVersionFromPathname, versionedDocsHref } from "@/lib/docs-versions";
 import { cn } from "@/lib/utils";
 import { BetterAuthWordmark } from "../icons/logo";
 import { contents } from "../sidebar-content";
+import { discoverCategories } from "@/lib/discover-categories";
 import {
 	Accordion,
 	AccordionContent,
@@ -1042,7 +1043,7 @@ export function StaggeredNavFiles() {
 										{/* Doc sidebar sections */}
 
 										<div className="flex flex-col">
-											{contents.map((section, index) => (
+											{isDocs && contents.map((section, index) => (
 												<div key={section.title}>
 													<button
 														type="button"
@@ -1178,6 +1179,71 @@ export function StaggeredNavFiles() {
 																					New
 																				</Badge>
 																			)}
+																		</Link>
+																	);
+																})}
+															</div>
+														</div>
+													)}
+												</div>
+											))}
+											
+											{isDiscover && discoverCategories.map((cat, index) => (
+												<div key={cat.id}>
+													<button
+														type="button"
+														className={cn(
+															"border-b border-foreground/6 w-full text-left flex gap-2 items-center px-5 py-3 transition-colors",
+															"font-medium text-sm tracking-wider",
+															mobileDocSection === index
+																? "text-foreground bg-foreground/3"
+																: "text-foreground/70 hover:text-foreground hover:bg-foreground/3",
+														)}
+														onClick={() =>
+															setMobileDocSection((prev) =>
+																prev === index ? -1 : index,
+															)
+														}
+													>
+														<cat.Icon className="size-4.5" />
+														<span className="grow tracking-normal">{cat.name}</span>
+														<ChevronDownIcon
+															className={cn(
+																"h-4 w-4 shrink-0 text-muted-foreground transition-transform duration-200",
+																mobileDocSection === index ? "rotate-180" : "",
+															)}
+														/>
+													</button>
+													{mobileDocSection === index && (
+														<div className="relative overflow-hidden">
+															<div className="text-sm pt-0 pb-1">
+																{cat.subcategories.map((item, i) => {
+																	const href = `/discover/${cat.slug}/${item.slug}`;
+																	const active = pathname === href;
+																	return (
+																		<Link
+																			key={href}
+																			href={href}
+																			onClick={() => setMobileMenuOpen(false)}
+																			data-active={active || undefined}
+																			className={cn(
+																				"relative flex w-full items-center gap-2.5 px-5 py-1.5 text-[14px] transition-all duration-150",
+																				active
+																					? "text-foreground bg-foreground/6"
+																					: "text-foreground/75 dark:text-foreground/60 hover:text-foreground/90 hover:bg-foreground/3",
+																			)}
+																		>
+																			<span className="text-foreground/75 transition-colors duration-150 dark:text-foreground/60">
+																				<span className="flex size-5 shrink-0 items-center justify-center [&>svg]:size-[14px]">
+																					{(() => {
+																						const SubIcon = cat.icons[item.slug] || cat.defaultIcon;
+																						return <SubIcon className="text-foreground/75" />;
+																					})()}
+																				</span>
+																			</span>
+																			<span className="min-w-0 grow truncate">
+																				{item.name}
+																			</span>
 																		</Link>
 																	);
 																})}

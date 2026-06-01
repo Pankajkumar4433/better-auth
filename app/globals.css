@@ -695,6 +695,15 @@ html:not([data-anchor-scrolling]) {
 	padding-top: var(--landing-topbar-height);
 }
 
+.discover-layout {
+	padding-top: var(--landing-topbar-height);
+}
+@media (min-width: 64rem) {
+	.discover-layout {
+		padding-inline-start: min(22vw, 300px);
+	}
+}
+
 @media (min-width: 64rem) {
 	.docs-layout {
 		--fd-layout-width: min(
