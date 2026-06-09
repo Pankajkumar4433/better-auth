@@ -62,11 +62,11 @@
               "icon": "https://www.google.com/s2/favicons?domain=chat.z.ai&sz=128"
             },
             {
-              "id": "qwen",
-              "name": "Qwen",
-              "url": "https://chat.qwen.ai/",
-              "banner": "https://assets.alicdn.com/g/qwenweb/qwen-chat-fe/0.2.38/favicon.png",
-              "description": "Qwen3.7-Max / Qwen3.7-Plus / Sign-Up / [Subreddit](https://www.reddit.com/r/Qwen_AI/) / [Discord](https://discord.com/invite/CV4E9rpNSD) / [GitHub](https://github.com/QwenLM)",
+              "id": "kimi",
+              "name": "Kimi",
+              "url": "https://www.kimi.com/",
+              "banner": "https://statics.moonshot.cn/kimi-helpcenter-doc/zh-CN/ppt/images/ppt/overview-02.png",
+              "description": "Kimi K2.6 (Thinking) / Slides / Google Login or Phone # Required / [Subreddit](https://www.reddit.com/r/kimi/) / [Discord](https://discord.gg/TYU2fdJykW) / [GitHub](https://github.com/MoonshotAI)",
               "featured": true,
               "tags": [
                 "open-source",
@@ -75,7 +75,7 @@
               "isPaid": true,
               "isOpenSource": true,
               "addedAt": "2025-05-26",
-              "icon": "https://www.google.com/s2/favicons?domain=chat.qwen.ai&sz=128"
+              "icon": "https://www.google.com/s2/favicons?domain=www.kimi.com&sz=128"
             },
             {
               "id": "gemini",
@@ -93,51 +93,6 @@
               "icon": "https://www.google.com/s2/favicons?domain=gemini.google.com&sz=128"
             },
             {
-              "id": "kimi",
-              "name": "Kimi",
-              "url": "https://www.kimi.com/",
-              "banner": "",
-              "description": "Kimi K2.6 (Thinking) / Slides / Google Login or Phone # Required / [Subreddit](https://www.reddit.com/r/kimi/) / [Discord](https://discord.gg/TYU2fdJykW) / [GitHub](https://github.com/MoonshotAI)",
-              "featured": true,
-              "tags": [
-                "open-source",
-                "requires-signup"
-              ],
-              "isPaid": true,
-              "isOpenSource": true,
-              "addedAt": "2025-05-26",
-              "icon": "https://www.google.com/s2/favicons?domain=www.kimi.com&sz=128"
-            },
-            {
-              "id": "meta-ai",
-              "name": "Meta AI",
-              "url": "https://www.meta.ai/",
-              "banner": "",
-              "description": "Muse Spark / Meta Sign-Up / Unlimited",
-              "featured": false,
-              "tags": [
-                "requires-signup",
-                "unlimited"
-              ],
-              "isPaid": true,
-              "isOpenSource": false,
-              "addedAt": "2025-05-26",
-              "icon": "https://www.google.com/s2/favicons?domain=www.meta.ai&sz=128"
-            },
-            {
-              "id": "ernie",
-              "name": "⁠Ernie",
-              "url": "https://ernie.baidu.com/",
-              "banner": "",
-              "description": "Ernie 5.1 Thinking / 5.1 Instant",
-              "featured": false,
-              "tags": [],
-              "isPaid": false,
-              "isOpenSource": false,
-              "addedAt": "2025-05-26",
-              "icon": "https://www.google.com/s2/favicons?domain=ernie.baidu.com&sz=128"
-            },
-            {
               "id": "chatgpt",
               "name": "ChatGPT",
               "url": "https://chatgpt.com/",
@@ -153,19 +108,36 @@
               "icon": "https://www.google.com/s2/favicons?domain=chatgpt.com&sz=128"
             },
             {
-              "id": "mimo-studio",
-              "name": "⁠MiMo Studio",
-              "url": "https://aistudio.xiaomimimo.com/",
-              "banner": "",
-              "description": "MiMo-V2.5-Pro / MiMo-V2.5 / Sign-Up",
+              "id": "claude",
+              "name": "Claude",
+              "url": "https://claude.ai/",
+              "banner": "https://cdn.sanity.io/images/4zrzovbb/claude-com/6c36adaaf60ecdde313a93ad255eef573ea4de97-1200x630.jpg?rect=0,2,1200,627&w=1200&h=627&fit=crop",
+              "description": "Claude Sonnet 4.6 / Require Sign-Up + Phone # / [Resources](https://awesomeclaude.ai/) / [Learning](https://github.com/ComposioHQ/awesome-claude-skills), [2](https://github.com/BehiSecc/awesome-claude-skills) / [Usage Tracker](https://github.com/lugia19/Claude-Usage-Extension) / [Subreddit](https://www.reddit.com/r/ClaudeAI/) / [Discord](https://discord.com/invite/6PPFFzqPDZ)",
               "featured": false,
               "tags": [
+                "open-source",
                 "requires-signup"
               ],
               "isPaid": true,
-              "isOpenSource": false,
+              "isOpenSource": true,
               "addedAt": "2025-05-26",
-              "icon": "https://www.google.com/s2/favicons?domain=aistudio.xiaomimimo.com&sz=128"
+              "icon": "https://www.google.com/s2/favicons?domain=claude.ai&sz=128"
+            },
+            {
+              "id": "qwen",
+              "name": "Qwen",
+              "url": "https://chat.qwen.ai/",
+              "banner": "https://assets.alicdn.com/g/qwenweb/qwen-chat-fe/0.2.38/favicon.png",
+              "description": "Qwen3.7-Max / Qwen3.7-Plus / Sign-Up / [Subreddit](https://www.reddit.com/r/Qwen_AI/) / [Discord](https://discord.com/invite/CV4E9rpNSD) / [GitHub](https://github.com/QwenLM)",
+              "featured": true,
+              "tags": [
+                "open-source",
+                "requires-signup"
+              ],
+              "isPaid": true,
+              "isOpenSource": true,
+              "addedAt": "2025-05-26",
+              "icon": "https://www.google.com/s2/favicons?domain=chat.qwen.ai&sz=128"
             },
             {
               "id": "grok",
@@ -179,6 +151,34 @@
               "isOpenSource": false,
               "addedAt": "2025-05-26",
               "icon": "https://www.google.com/s2/favicons?domain=grok.com&sz=128"
+            },
+            {
+              "id": "step-fun",
+              "name": "Step Fun",
+              "url": "https://stepfun.ai/",
+              "banner": "",
+              "description": "Step-2 / Step-1.5V / Sign-Up",
+              "featured": false,
+              "tags": [
+                "requires-signup"
+              ],
+              "isPaid": true,
+              "isOpenSource": false,
+              "addedAt": "2025-05-26",
+              "icon": "https://www.google.com/s2/favicons?domain=stepfun.ai&sz=128"
+            },
+            {
+              "id": "mistral",
+              "name": "Mistral",
+              "url": "https://chat.mistral.ai",
+              "banner": "https://cms.mistral.ai/assets/060bdeb1-fbff-419c-b2ae-b32b5e441864",
+              "description": "or [Mistral (console)](https://console.mistral.ai/home) - Mistral Large 3 / [Subreddit](https://www.reddit.com/r/MistralAI/) / [Discord](https://discord.gg/mistralai)",
+              "featured": false,
+              "tags": [],
+              "isPaid": false,
+              "isOpenSource": false,
+              "addedAt": "2025-05-26",
+              "icon": "https://www.google.com/s2/favicons?domain=chat.mistral.ai&sz=128"
             },
             {
               "id": "microsoft-copilot",
@@ -197,26 +197,26 @@
               "icon": "https://www.google.com/s2/favicons?domain=copilot.microsoft.com&sz=128"
             },
             {
-              "id": "claude",
-              "name": "Claude",
-              "url": "https://claude.ai/",
-              "banner": "https://claude.ai/images/claude_ogimage.png",
-              "description": "Claude Sonnet 4.6 / Require Sign-Up + Phone # / [Resources](https://awesomeclaude.ai/) / [Learning](https://github.com/ComposioHQ/awesome-claude-skills), [2](https://github.com/BehiSecc/awesome-claude-skills) / [Usage Tracker](https://github.com/lugia19/Claude-Usage-Extension) / [Subreddit](https://www.reddit.com/r/ClaudeAI/) / [Discord](https://discord.com/invite/6PPFFzqPDZ)",
+              "id": "meta-ai",
+              "name": "Meta AI",
+              "url": "https://www.meta.ai/",
+              "banner": "https://www.meta.ai/images/meta-ai-orbit-xma.png",
+              "description": "Muse Spark / Meta Sign-Up / Unlimited",
               "featured": false,
               "tags": [
-                "open-source",
-                "requires-signup"
+                "requires-signup",
+                "unlimited"
               ],
               "isPaid": true,
-              "isOpenSource": true,
+              "isOpenSource": false,
               "addedAt": "2025-05-26",
-              "icon": "https://www.google.com/s2/favicons?domain=claude.ai&sz=128"
+              "icon": "https://www.google.com/s2/favicons?domain=www.meta.ai&sz=128"
             },
             {
               "id": "minimax-ai",
               "name": "MiniMax AI",
               "url": "https://agent.minimax.io/",
-              "banner": "",
+              "banner": "https://file.cdn.minimax.io/public/f1e940bd-00f4-4ad5-bb6a-83ee95f45014.png",
               "description": "MiniMax-M2.7 / [GitHub](https://github.com/MiniMax-AI/)",
               "featured": false,
               "tags": [
@@ -226,6 +226,34 @@
               "isOpenSource": true,
               "addedAt": "2025-05-26",
               "icon": "https://www.google.com/s2/favicons?domain=agent.minimax.io&sz=128"
+            },
+            {
+              "id": "ernie",
+              "name": "⁠Ernie",
+              "url": "https://ernie.baidu.com/",
+              "banner": "",
+              "description": "Ernie 5.1 Thinking / 5.1 Instant",
+              "featured": false,
+              "tags": [],
+              "isPaid": false,
+              "isOpenSource": false,
+              "addedAt": "2025-05-26",
+              "icon": "https://www.google.com/s2/favicons?domain=ernie.baidu.com&sz=128"
+            },
+            {
+              "id": "mimo-studio",
+              "name": "⁠MiMo Studio",
+              "url": "https://aistudio.xiaomimimo.com/",
+              "banner": "https://aistudio.xiaomimimo.com/claw.a93b6177.webp",
+              "description": "MiMo-V2.5-Pro / MiMo-V2.5 / Sign-Up",
+              "featured": false,
+              "tags": [
+                "requires-signup"
+              ],
+              "isPaid": true,
+              "isOpenSource": false,
+              "addedAt": "2025-05-26",
+              "icon": "https://www.google.com/s2/favicons?domain=aistudio.xiaomimimo.com&sz=128"
             },
             {
               "id": "arceeai",
@@ -241,19 +269,6 @@
               "isOpenSource": false,
               "addedAt": "2025-05-26",
               "icon": "https://www.google.com/s2/favicons?domain=chat.arcee.ai&sz=128"
-            },
-            {
-              "id": "mistral",
-              "name": "Mistral",
-              "url": "https://chat.mistral.ai",
-              "banner": "https://cms.mistral.ai/assets/060bdeb1-fbff-419c-b2ae-b32b5e441864",
-              "description": "or [Mistral (console)](https://console.mistral.ai/home) - Mistral Large 3 / [Subreddit](https://www.reddit.com/r/MistralAI/) / [Discord](https://discord.gg/mistralai)",
-              "featured": false,
-              "tags": [],
-              "isPaid": false,
-              "isOpenSource": false,
-              "addedAt": "2025-05-26",
-              "icon": "https://www.google.com/s2/favicons?domain=chat.mistral.ai&sz=128"
             },
             {
               "id": "ai2-playground",
@@ -411,11 +426,11 @@
               "icon": "https://www.google.com/s2/favicons?domain=opper.ai&sz=128"
             },
             {
-              "id": "ish",
-              "name": "⁠ISH",
-              "url": "https://beta.ish.chat/",
-              "banner": "https://ish.chat/opengraph-image.png?opengraph-image.02vop938vj6rm.png",
-              "description": "Claude Opus 4.7 / Claude Sonnet 4.6 / Multiple Models / Sign-Up (GitHub) / [Subreddit](https://www.reddit.com/r/Ishchat/) / [Discord](https://discord.gg/cwDTVKyKJz) / [Token Note](https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/ish.md)",
+              "id": "arena",
+              "name": "Arena",
+              "url": "https://arena.ai/text/direct",
+              "banner": "https://storage.ghost.io/c/37/18/37180a6f-127b-4177-bb4a-98f4f26f9e5d/content/images/size/w1200/2025/09/LMArena-Blog-AI-Evaluation.png",
+              "description": ", [2](https://canaryarena.ai/text/direct) - Multiple Models / Sign-Up / [OpenAI Bridge](https://github.com/CloudWaddie/LMArenaBridge) / [X](https://x.com/arena) / [Discord](https://discord.com/invite/lmarena)",
               "featured": false,
               "tags": [
                 "open-source",
@@ -424,7 +439,7 @@
               "isPaid": true,
               "isOpenSource": true,
               "addedAt": "2025-05-26",
-              "icon": "https://www.google.com/s2/favicons?domain=beta.ish.chat&sz=128"
+              "icon": "https://www.google.com/s2/favicons?domain=arena.ai&sz=128"
             },
             {
               "id": "woozlit",
@@ -442,22 +457,6 @@
               "icon": "https://www.google.com/s2/favicons?domain=woozlit.com&sz=128"
             },
             {
-              "id": "arena",
-              "name": "Arena",
-              "url": "https://arena.ai/text/direct",
-              "banner": "https://indexable.arena.ai/routes/arena-preview--og-twitter--1200x630--v1.png",
-              "description": ", [2](https://canaryarena.ai/text/direct) - Multiple Models / Sign-Up / [OpenAI Bridge](https://github.com/CloudWaddie/LMArenaBridge) / [X](https://x.com/arena) / [Discord](https://discord.com/invite/lmarena)",
-              "featured": false,
-              "tags": [
-                "open-source",
-                "requires-signup"
-              ],
-              "isPaid": true,
-              "isOpenSource": true,
-              "addedAt": "2025-05-26",
-              "icon": "https://www.google.com/s2/favicons?domain=arena.ai&sz=128"
-            },
-            {
               "id": "pollinations-chat",
               "name": "Pollinations Chat",
               "url": "https://pollinations.ai/play",
@@ -469,21 +468,6 @@
               "isOpenSource": false,
               "addedAt": "2025-05-26",
               "icon": "https://www.google.com/s2/favicons?domain=pollinations.ai&sz=128"
-            },
-            {
-              "id": "indic-llm-arena",
-              "name": "⁠Indic LLM Arena",
-              "url": "https://arena.ai4bharat.org/#/chat",
-              "banner": "",
-              "description": "Multiple Models / Unlimited / [Discord](https://discord.com/invite/HqJXnJNDaq)",
-              "featured": false,
-              "tags": [
-                "unlimited"
-              ],
-              "isPaid": false,
-              "isOpenSource": false,
-              "addedAt": "2025-05-26",
-              "icon": "https://www.google.com/s2/favicons?domain=arena.ai4bharat.org&sz=128"
             },
             {
               "id": "nvidia-nim",
@@ -500,6 +484,37 @@
               "isOpenSource": false,
               "addedAt": "2025-05-26",
               "icon": "https://www.google.com/s2/favicons?domain=build.nvidia.com&sz=128"
+            },
+            {
+              "id": "ish",
+              "name": "⁠ISH",
+              "url": "https://ish.chat/",
+              "banner": "https://ish.chat/ish.png",
+              "description": "Claude Opus 4.7 / Claude Sonnet 4.6 / Multiple Models / Sign-Up (GitHub) / [Subreddit](https://www.reddit.com/r/Ishchat/) / [Discord](https://discord.gg/cwDTVKyKJz) / [Token Note](https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/ish.md)",
+              "featured": false,
+              "tags": [
+                "open-source",
+                "requires-signup"
+              ],
+              "isPaid": true,
+              "isOpenSource": true,
+              "addedAt": "2025-05-26",
+              "icon": "https://www.google.com/s2/favicons?domain=ish.chat&sz=128"
+            },
+            {
+              "id": "indic-llm-arena",
+              "name": "⁠Indic LLM Arena",
+              "url": "https://arena.ai4bharat.org/#/chat",
+              "banner": "",
+              "description": "Multiple Models / Unlimited / [Discord](https://discord.com/invite/HqJXnJNDaq)",
+              "featured": false,
+              "tags": [
+                "unlimited"
+              ],
+              "isPaid": false,
+              "isOpenSource": false,
+              "addedAt": "2025-05-26",
+              "icon": "https://www.google.com/s2/favicons?domain=arena.ai4bharat.org&sz=128"
             },
             {
               "id": "togetherai",
@@ -533,7 +548,7 @@
               "id": "cerebras-chat",
               "name": "Cerebras Chat",
               "url": "https://chat.cerebras.ai/",
-              "banner": "https://inference.cerebras.ai/images/share.png",
+              "banner": "https://cdn.sanity.io/images/e4qjo92p/production/21fa43f6d541115e57887beb1155bddc7541ae71-2400x1260.jpg?w=1200&h=630&fit=max&auto=format",
               "description": "GLM-4.7 / Qwen3-235B / Qwen3 235B Instruct / Multiple Models / Sign-Up",
               "featured": false,
               "tags": [
@@ -588,7 +603,7 @@
               "description": "🌐 , [2](https://huggingface.co/spaces/Felladrin/awesome-ai-web-search) - AI Search Engine Index",
               "featured": false,
               "tags": [
-                "open-source"
+                "open-source, list"
               ],
               "isPaid": false,
               "isOpenSource": true,
@@ -664,7 +679,7 @@
               "id": "arena",
               "name": "Arena",
               "url": "https://arena.ai/?mode=direct&chat-modality=search",
-              "banner": "https://indexable.arena.ai/routes/arena-preview--og-twitter--1200x630--v1.png",
+              "banner": "https://storage.ghost.io/c/37/18/37180a6f-127b-4177-bb4a-98f4f26f9e5d/content/images/size/w1200/2025/07/search-arena-refresher-2-1.png",
               "description": ", [2](https://canaryarena.ai/search/direct) - AI Search Engine / Sign-Up / [OpenAI Bridge](https://github.com/CloudWaddie/LMArenaBridge) / [X](https://x.com/arena) / [Discord](https://discord.com/invite/lmarena)",
               "featured": false,
               "tags": [
@@ -734,7 +749,7 @@
               "id": "learn-about",
               "name": "Learn About",
               "url": "https://learning.google.com/experiments/learn-about",
-              "banner": "",
+              "banner": "https://lh3.googleusercontent.com/vZ1sHI1gqnWCodT2o8x3y5th5mjtMKoI85n6iOxQ-YwQzaKqJBkbU6tkvYun-Y9lDOeI1PEBxY_4XpWL-kvUwlWp3xQSYTfp2PEB29Xic1qGSozQbmpt",
               "description": "or [Learning Coach](https://gemini.google.com/gem/learning-coach) - Google's Educational Search AIs / [Add Features](https://github.com/Nagi-ovo/gemini-voyager)",
               "featured": false,
               "tags": [
@@ -749,7 +764,7 @@
               "id": "sci-bot",
               "name": "⁠Sci-Bot",
               "url": "https://sci-bot.ru/",
-              "banner": "",
+              "banner": "https://sci-bot.ru/sci-hub.png",
               "description": "Sci-Hub Research Chatbot",
               "featured": false,
               "tags": [],
@@ -762,7 +777,7 @@
               "id": "scispace",
               "name": "SciSpace",
               "url": "https://scispace.com/",
-              "banner": "",
+              "banner": "https://scispace.com/vs/meta-images/agent-banner.png",
               "description": "Research Chatbot / [Discord](https://discord.com/invite/cR3r8wP92C)",
               "featured": false,
               "tags": [],
@@ -775,7 +790,7 @@
               "id": "scinito",
               "name": "Scinito",
               "url": "https://ekb.scinito.ai/ai/chat",
-              "banner": "",
+              "banner": "https://website.troweb.app/api/v1/blob/68f4c56b135c0d242b2f21c7?width=828&quality=75",
               "description": "Research Chatbot",
               "featured": false,
               "tags": [],
@@ -788,7 +803,7 @@
               "id": "elicit",
               "name": "Elicit",
               "url": "https://elicit.com/",
-              "banner": "",
+              "banner": "https://framerusercontent.com/images/s7irwYwOOfdSFu6EPduaB8EDsIg.png",
               "description": "Research Chatbot / [GitHub](https://github.com/elicit)",
               "featured": false,
               "tags": [
@@ -798,21 +813,6 @@
               "isOpenSource": true,
               "addedAt": "2025-05-26",
               "icon": "https://www.google.com/s2/favicons?domain=elicit.com&sz=128"
-            },
-            {
-              "id": "privategpt",
-              "name": "PrivateGPT",
-              "url": "https://privategpt.dev/",
-              "banner": "https://framerusercontent.com/images/gAFObe5xNAF1gojk3nkzKHGAr2w.png",
-              "description": "Document Chatbot / Note-Taking / [Discord](https://discord.com/invite/bK6mRVpErU) / [GitHub](https://github.com/zylon-ai/private-gpt)",
-              "featured": false,
-              "tags": [
-                "open-source"
-              ],
-              "isPaid": false,
-              "isOpenSource": true,
-              "addedAt": "2025-05-26",
-              "icon": "https://www.google.com/s2/favicons?domain=privategpt.dev&sz=128"
             },
             {
               "id": "onyx",
@@ -874,7 +874,7 @@
               "id": "hyperspace",
               "name": "Hyperspace",
               "url": "https://hyper.space/",
-              "banner": "",
+              "banner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyVdRd37WldFidOROpY7qyt6ZQPp73qqxPKg&s",
               "description": "P2P AI Network / [GitHub](https://github.com/hyperspaceai)",
               "featured": false,
               "tags": [
@@ -940,7 +940,7 @@
               "id": "lm-studio",
               "name": "LM Studio",
               "url": "https://lmstudio.ai/",
-              "banner": "https://files.lmstudio.ai/6-model-link-og.png",
+              "banner": "https://pbs.twimg.com/profile_images/1755060270173429760/4WVc54_p_400x400.jpg",
               "description": "Desktop App / Self-Hosted Models Only / [Discord](https://discord.gg/aPQfnNkxGC) / [GitHub](https://github.com/lmstudio-ai)",
               "featured": true,
               "tags": [
@@ -1029,7 +1029,7 @@
               "id": "lobehub",
               "name": "LobeHub",
               "url": "https://lobechat.com/chat",
-              "banner": "",
+              "banner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO1UOr1mQzVpnjpbshEXYr31TMr6X7wLFg8Q&s",
               "description": "Desktop App / Requires Sign-Up / [Discord](https://discord.gg/AYFPHvv2jT) / [GitHub](https://github.com/lobehub/lobe-chat)",
               "featured": false,
               "tags": [
@@ -1039,13 +1039,13 @@
               "isPaid": true,
               "isOpenSource": true,
               "addedAt": "2025-05-26",
-              "icon": "https://www.google.com/s2/favicons?domain=lobechat.com&sz=128"
+              "icon": "https://registry.npmmirror.com/@lobehub/assets-logo/1.2.0/files/assets/logo-3d.webp"
             },
             {
               "id": "noi",
               "name": "Noi",
               "url": "https://noib.app/",
-              "banner": "https://noib.app/img/docusaurus-social-card.jpg",
+              "banner": "",
               "description": "Desktop App / [Discord](https://discord.gg/kq2HXcpJSQ) / [GitHub](https://github.com/lencx/Noi)",
               "featured": false,
               "tags": [
@@ -1054,7 +1054,7 @@
               "isPaid": false,
               "isOpenSource": true,
               "addedAt": "2025-05-26",
-              "icon": "https://www.google.com/s2/favicons?domain=noib.app&sz=128"
+              "icon": "https://noib.app/readme/noi.png"
             },
             {
               "id": "librechat",
@@ -1075,7 +1075,7 @@
               "id": "lollms",
               "name": "LoLLMs",
               "url": "https://lollms.com/",
-              "banner": "",
+              "banner": "https://i.ytimg.com/vi/v7MJy_2_Mos/maxresdefault.jpg",
               "description": "Web UI / [GitHub](https://github.com/ParisNeo/lollms-webui)",
               "featured": false,
               "tags": [
@@ -1160,7 +1160,7 @@
               "description": "🌐  - Local LLM Platforms / Resources",
               "featured": false,
               "tags": [
-                "open-source"
+                "open-source, list"
               ],
               "isPaid": false,
               "isOpenSource": true,
@@ -1216,7 +1216,7 @@
               "id": "petals",
               "name": "Petals",
               "url": "https://petals.dev/",
-              "banner": "",
+              "banner": "https://petals.dev/logo.svg",
               "description": "Self-Hosted / [Discord](https://discord.gg/D9MwApKgWa) / [GitHub](https://github.com/bigscience-workshop/petals)",
               "featured": false,
               "tags": [
@@ -1225,13 +1225,13 @@
               "isPaid": false,
               "isOpenSource": true,
               "addedAt": "2025-05-26",
-              "icon": "https://www.google.com/s2/favicons?domain=petals.dev&sz=128"
+              "icon": "https://petals.dev/logo.svg"
             },
             {
               "id": "leon",
               "name": "Leon",
               "url": "https://getleon.ai/",
-              "banner": "",
+              "banner": "https://getleon.ai/img/facebook-preview.png",
               "description": "Self-Hosted / [Discord](https://discord.gg/MNQqqKg) / [GitHub](https://github.com/leon-ai/leon)",
               "featured": false,
               "tags": [
@@ -1304,7 +1304,7 @@
               "id": "localai",
               "name": "⁠LocalAI",
               "url": "https://localai.io/",
-              "banner": "",
+              "banner": "https://raw.githubusercontent.com/mudler/LocalAI/refs/heads/master/core/http/static/logo.png",
               "description": "Self-Hosted Models / [GitHub](https://github.com/mudler/LocalAI)",
               "featured": false,
               "tags": [
@@ -1369,7 +1369,7 @@
               "id": "pygmalionai",
               "name": "PygmalionAI",
               "url": "https://pygmalion.chat/",
-              "banner": "",
+              "banner": "https://pygmalion.chat/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fbg.b3a21065.png&w=3840&q=75",
               "description": "Roleplaying Chatbots / Unlimited (Free Models) / Sign-Up / [Guide](https://wikia.schneedc.com/bot-creation/intro) / [Resources](https://claraiscute.neocities.org/Guides/PygmalionLinks/), [2](https://claraiscute.pages.dev/Guides/PygmalionLinks/) / [Subreddit](https://www.reddit.com/r/PygmalionAI/) / [Discord](https://discord.com/invite/pygmalionai) / [GitHub](https://github.com/PygmalionAI)",
               "featured": true,
               "tags": [
@@ -1503,7 +1503,7 @@
               "isPaid": true,
               "isOpenSource": false,
               "addedAt": "2025-05-26",
-              "icon": "https://www.google.com/s2/favicons?domain=lite.koboldai.net&sz=128"
+              "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToNMOYxxKb96c-yhVpE_nMAq2UkkdUkiFfJA&s"
             },
             {
               "id": "tavernai",
@@ -1518,7 +1518,7 @@
               "isPaid": false,
               "isOpenSource": true,
               "addedAt": "2025-05-26",
-              "icon": "https://www.google.com/s2/favicons?domain=tavernai.net&sz=128"
+              "icon": "https://tavernai.net/dev.jpg"
             },
             {
               "id": "koboldai",
@@ -1572,29 +1572,64 @@
       "slug": "ai-writing-tools",
       "sections": [
         {
-          "section_id": "general",
-          "section_title": "General",
+          "section_id": "writing-assistants",
+          "section_title": "Writing & Copywriting Assistants",
           "resources": [
             {
-              "id": "toolbaz",
-              "name": "Toolbaz",
-              "url": "https://toolbaz.com/",
-              "banner": "https://toolbaz.com/assets/og-image/1.php?title=Free+AI+Writer+Tools&amp;desc=Explore+ToolBaz%27s+free+AI+tools+powered+by+GPT-5%2C+Claude%2C+Gemini%2C+Meta-AI%2C+and+more.+Enhance+content+creation%2C+stories%2C+emails%2C+images%2C+and+audio+with+cutting-edge+AI.",
-              "description": "Online AI Text Tools",
+              "id": "rytr",
+              "name": "Rytr",
+              "url": "https://rytr.me/",
+              "banner": "https://rytr.me/assets/og-image.png",
+              "description": "Free AI writing assistant to create high-quality content in seconds",
               "featured": true,
-              "tags": [],
-              "isPaid": false,
+              "tags": [
+                "requires-signup",
+                "free-tier"
+              ],
+              "isPaid": true,
               "isOpenSource": false,
               "addedAt": "2025-05-26",
-              "icon": "https://www.google.com/s2/favicons?domain=toolbaz.com&sz=128"
+              "icon": "https://www.google.com/s2/favicons?domain=rytr.me&sz=128"
+            },
+            {
+              "id": "copy-ai",
+              "name": "Copy.ai",
+              "url": "https://www.copy.ai/",
+              "banner": "https://assets-global.website-files.com/62828b81cf733e8412615462/6290d9b4db7049444005b4b7_Copy.ai_social.png",
+              "description": "AI-powered copywriting tools for marketing, sales, and workflows",
+              "featured": true,
+              "tags": [
+                "requires-signup",
+                "free-tier"
+              ],
+              "isPaid": true,
+              "isOpenSource": false,
+              "addedAt": "2025-05-26",
+              "icon": "https://www.google.com/s2/favicons?domain=copy.ai&sz=128"
+            },
+            {
+              "id": "writesonic",
+              "name": "Writesonic",
+              "url": "https://writesonic.com/",
+              "banner": "https://writesonic.com/static/images/writesonic-og.png",
+              "description": "SEO-friendly AI writer for blogs, ads, emails, and website copy",
+              "featured": false,
+              "tags": [
+                "requires-signup",
+                "free-tier"
+              ],
+              "isPaid": true,
+              "isOpenSource": false,
+              "addedAt": "2025-05-26",
+              "icon": "https://www.google.com/s2/favicons?domain=writesonic.com&sz=128"
             },
             {
               "id": "textfx",
               "name": "TextFX",
               "url": "https://textfx.withgoogle.com/",
               "banner": "",
-              "description": "[GitHub](https://github.com/google/generative-ai-docs/tree/main/demos/palm/web/textfx) or [Rytr](https://rytr.me/) - AI Creative Writing Tools / No Sign-Up",
-              "featured": true,
+              "description": "AI creative writing tools designed for rappers, writers, and wordsmiths",
+              "featured": false,
               "tags": [
                 "open-source",
                 "requires-signup"
@@ -1605,17 +1640,138 @@
               "icon": "https://www.google.com/s2/favicons?domain=textfx.withgoogle.com&sz=128"
             },
             {
-              "id": "quarkle",
-              "name": "Quarkle",
-              "url": "https://quarkle.ai/",
-              "banner": "https://quarkle.ai/images/og-image.png",
-              "description": "AI Writing Assistant",
+              "id": "toolbaz",
+              "name": "Toolbaz",
+              "url": "https://toolbaz.com/",
+              "banner": "https://toolbaz.com/assets/og-image/1.php?title=Free+AI+Writer+Tools",
+              "description": "Diverse collection of completely free online AI text generators",
               "featured": false,
               "tags": [],
               "isPaid": false,
               "isOpenSource": false,
               "addedAt": "2025-05-26",
+              "icon": "https://www.google.com/s2/favicons?domain=toolbaz.com&sz=128"
+            },
+            {
+              "id": "quarkle",
+              "name": "Quarkle",
+              "url": "https://quarkle.ai/",
+              "banner": "https://quarkle.ai/images/og-image.png",
+              "description": "AI book writing partner that acts as an editor, Muse, and sounding board",
+              "featured": false,
+              "tags": [
+                "free-tier"
+              ],
+              "isPaid": true,
+              "isOpenSource": false,
+              "addedAt": "2025-05-26",
               "icon": "https://www.google.com/s2/favicons?domain=quarkle.ai&sz=128"
+            }
+          ]
+        },
+        {
+          "section_id": "paraphrasing-editing",
+          "section_title": "Paraphrasing & Editing Tools",
+          "resources": [
+            {
+              "id": "quillbot",
+              "name": "QuillBot",
+              "url": "https://quillbot.com/",
+              "banner": "https://quillbot.com/images/meta-img.png",
+              "description": "AI-powered paraphrasing tool, grammar checker, and summarizer",
+              "featured": true,
+              "tags": [
+                "free-tier"
+              ],
+              "isPaid": true,
+              "isOpenSource": false,
+              "addedAt": "2025-05-26",
+              "icon": "https://www.google.com/s2/favicons?domain=quillbot.com&sz=128"
+            },
+            {
+              "id": "wordtune",
+              "name": "Wordtune",
+              "url": "https://www.wordtune.com/",
+              "banner": "https://www.wordtune.com/assets/og-image.png",
+              "description": "AI writing assistant that helps rephrase, refine, and polish sentences",
+              "featured": false,
+              "tags": [
+                "requires-signup",
+                "free-tier"
+              ],
+              "isPaid": true,
+              "isOpenSource": false,
+              "addedAt": "2025-05-26",
+              "icon": "https://www.google.com/s2/favicons?domain=wordtune.com&sz=128"
+            },
+            {
+              "id": "deepl-write",
+              "name": "DeepL Write",
+              "url": "https://www.deepl.com/write",
+              "banner": "https://static.deepl.com/img/share/deepl_logo_square.png",
+              "description": "AI-powered writing companion that improves grammar, phrasing, and style",
+              "featured": true,
+              "tags": [
+                "free-tier"
+              ],
+              "isPaid": true,
+              "isOpenSource": false,
+              "addedAt": "2025-05-26",
+              "icon": "https://www.google.com/s2/favicons?domain=deepl.com&sz=128"
+            }
+          ]
+        },
+        {
+          "section_id": "research-academic",
+          "section_title": "Research & Academic Assistants",
+          "resources": [
+            {
+              "id": "jenni-ai",
+              "name": "Jenni AI",
+              "url": "https://jenni.ai/",
+              "banner": "https://jenni.ai/og-image.png",
+              "description": "AI writing assistant specialized in research papers, essays, and literature reviews",
+              "featured": true,
+              "tags": [
+                "requires-signup",
+                "free-tier"
+              ],
+              "isPaid": true,
+              "isOpenSource": false,
+              "addedAt": "2025-05-26",
+              "icon": "https://www.google.com/s2/favicons?domain=jenni.ai&sz=128"
+            },
+            {
+              "id": "scispace-typeset",
+              "name": "SciSpace",
+              "url": "https://typeset.io/",
+              "banner": "https://typeset.io/static/images/meta/og-image.png",
+              "description": "AI-powered literature explorer, summarizer, and research writing assistant",
+              "featured": false,
+              "tags": [
+                "requires-signup",
+                "free-tier"
+              ],
+              "isPaid": true,
+              "isOpenSource": false,
+              "addedAt": "2025-05-26",
+              "icon": "https://www.google.com/s2/favicons?domain=typeset.io&sz=128"
+            },
+            {
+              "id": "consensus",
+              "name": "Consensus",
+              "url": "https://consensus.app/",
+              "banner": "https://consensus.app/wp-content/uploads/2022/09/cropped-Consensus-Logo-Vertical-Padded-1.png",
+              "description": "AI search engine that finds evidence-based answers to scientific questions",
+              "featured": false,
+              "tags": [
+                "requires-signup",
+                "free-tier"
+              ],
+              "isPaid": true,
+              "isOpenSource": false,
+              "addedAt": "2025-05-26",
+              "icon": "https://www.google.com/s2/favicons?domain=consensus.app&sz=128"
             }
           ]
         }
@@ -1647,7 +1803,7 @@
               "id": "geminigen-ai",
               "name": "⁠GeminiGen AI",
               "url": "https://geminigen.ai/app/video-gen",
-              "banner": "https://geminigen.ai/og-image.jpg",
+              "banner": "",
               "description": "Veo 3.1 / Sora 2 / Grok / Meta (Image to Video) / Login required / [Discord](https://discord.gg/vJnYe86T8F)",
               "featured": true,
               "tags": [
@@ -1693,7 +1849,7 @@
               "id": "arena",
               "name": "Arena",
               "url": "https://arena.ai/?chat-modality=video",
-              "banner": "https://indexable.arena.ai/routes/arena-preview--og-twitter--1200x630--v1.png",
+              "banner": "https://storage.ghost.io/c/37/18/37180a6f-127b-4177-bb4a-98f4f26f9e5d/content/images/size/w1200/2025/09/LMArena-Blog-AI-Evaluation.png",
               "description": ", [2](https://canaryarena.ai/video) - 2 Daily / Sign-Up / Random Models / End-Watermark / [X](https://x.com/arena) / [Discord](https://discord.com/invite/lmarena)",
               "featured": false,
               "tags": [
@@ -1721,7 +1877,7 @@
               "id": "wan-ai",
               "name": "Wan AI",
               "url": "https://create.wan.video/explore/video/generate?model=wan2.7",
-              "banner": "https://img.alicdn.com/imgextra/i1/O1CN01WlNesT1EWvfm8mzKw_!!6000000000360-2-tps-600-315.png",
+              "banner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnDg4wdqijB_5jBWOEjzij9zHMGQiW6SZcwQ&s",
               "description": "Wan 2.7 / Image to Video / 10 Credits Daily (Fast Credit Based, Slow Unlimited) / [GitHub](https://github.com/Wan-Video/Wan2.1)",
               "featured": false,
               "tags": [
@@ -1766,7 +1922,7 @@
               "id": "meta-ai",
               "name": "Meta AI",
               "url": "https://www.meta.ai/",
-              "banner": "",
+              "banner": "https://www.meta.ai/images/meta-ai-orbit-xma.png",
               "description": "Unlimited / Meta Sign-Up",
               "featured": false,
               "tags": [
@@ -1794,25 +1950,10 @@
               "icon": "https://www.google.com/s2/favicons?domain=klipy.com&sz=128"
             },
             {
-              "id": "qwen",
-              "name": "Qwen",
-              "url": "https://chat.qwen.ai/",
-              "banner": "https://assets.alicdn.com/g/qwenweb/qwen-chat-fe/0.2.38/favicon.png",
-              "description": "5/12 Per Hour / [Discord](https://discord.com/invite/CV4E9rpNSD) / [GitHub](https://github.com/QwenLM)",
-              "featured": false,
-              "tags": [
-                "open-source"
-              ],
-              "isPaid": false,
-              "isOpenSource": true,
-              "addedAt": "2025-05-26",
-              "icon": "https://www.google.com/s2/favicons?domain=chat.qwen.ai&sz=128"
-            },
-            {
               "id": "aifreevideo",
               "name": "AIFreeVideo",
               "url": "https://aifreevideo.com/",
-              "banner": "https://aifreevideo.com/images/aifreevideo.jpg ",
+              "banner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQN__IkYgidknJaHhl_zs9HKG_k2ElEHYvKRA&s",
               "description": "Unlimited / MiniMax Video-01 / Sign-Up",
               "featured": false,
               "tags": [
@@ -1829,7 +1970,7 @@
               "id": "modelscope-video",
               "name": "ModelScope Video",
               "url": "https://modelscope.ai/civision/videoGeneration",
-              "banner": "https://modelscope.ai//img.alicdn.com/imgextra/i4/O1CN01fvt4it25rEZU4Gjso_!!6000000007579-2-tps-128-128.png",
+              "banner": "https://cdn.modelscope.ai/social-thumbnails/studios/Qwen/Qwen-Image-2.0-pro.png",
               "description": "Wan 2.2 14B / 3 Daily / [Note](https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/modelscope.md)",
               "featured": false,
               "tags": [
@@ -1938,8 +2079,8 @@
             {
               "id": "arena-text-to-image",
               "name": "Arena Text to Image",
-              "url": "https://arena.ai/leaderboard/text-to-image",
-              "banner": "https://indexable.arena.ai/routes/leaderboard/text-to-image/text-to-image-leaderboard--og-twitter--1200x630--v1.jpg",
+              "url": "https://arena.ai/image/direct",
+              "banner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6r0P2PHxJJKV9U9Ca4UOpsYBg3-MWUZ3rJw&s",
               "description": "🌐  or [Arena Editing](https://arena.ai/leaderboard/image-edit) - Image Gen Benchmarks / 15 Daily / Leaderboards",
               "featured": false,
               "tags": [],
@@ -1968,7 +2109,7 @@
               "id": "google-ai-mode",
               "name": "Google AI Mode",
               "url": "https://google.com/aimode",
-              "banner": "",
+              "banner": "https://www.gstatic.com/share/aim_shareplate.png",
               "description": "[Discord](https://discord.com/invite/googlelabs) or [Gemini](https://gemini.google.com/) / [Discord](https://discord.com/invite/gemini) - Nano Banana 2 / 20 Per Day / Google Login / [Remove Watermarks](https://banana.ovo.re/), [2](https://greasyfork.org/en/scripts/559574) / [Add Features](https://github.com/Nagi-ovo/gemini-voyager)",
               "featured": true,
               "tags": [
@@ -2000,7 +2141,7 @@
               "id": "geminigen-ai",
               "name": "⁠GeminiGen AI",
               "url": "https://geminigen.ai/app/imagen",
-              "banner": "https://geminigen.ai/og-image.jpg",
+              "banner": "",
               "description": "Nano Banana Pro / Nano Banana 2 / Grok Imagine / Sign-up / [Discord](https://discord.com/invite/vJnYe86T8F)",
               "featured": false,
               "tags": [
@@ -2010,22 +2151,6 @@
               "isOpenSource": false,
               "addedAt": "2025-05-26",
               "icon": "https://www.google.com/s2/favicons?domain=geminigen.ai&sz=128"
-            },
-            {
-              "id": "arena",
-              "name": "Arena",
-              "url": "https://arena.ai/?mode=direct&chat-modality=image",
-              "banner": "https://indexable.arena.ai/routes/arena-preview--og-twitter--1200x630--v1.png",
-              "description": ", [2](https://canaryarena.ai/image/direct) - Multiple Generators / Editing / Sign-Up / [OpenAI Bridge](https://github.com/CloudWaddie/LMArenaBridge) / [X](https://x.com/arena) / [Discord](https://discord.com/invite/lmarena)",
-              "featured": false,
-              "tags": [
-                "open-source",
-                "requires-signup"
-              ],
-              "isPaid": true,
-              "isOpenSource": true,
-              "addedAt": "2025-05-26",
-              "icon": "https://www.google.com/s2/favicons?domain=arena.ai&sz=128"
             },
             {
               "id": "bing-create",
@@ -2105,7 +2230,7 @@
               "id": "dreamina",
               "name": "Dreamina",
               "url": "https://dreamina.capcut.com/ai-tool/home?type=image&workspace=0",
-              "banner": "",
+              "banner": "https://p16-seeyou-sg.ibyteimg.com/tos-alisg-i-2zwwjm3azk-sg/0343f52d746f5309ed4381debb4c955f.png~tplv-2zwwjm3azk-image.png",
               "description": "120 Credits Daily / Seedream 5.0 lite / Nano Banana / Sign-Up",
               "featured": false,
               "tags": [
@@ -2136,7 +2261,7 @@
               "id": "wan-ai-image",
               "name": "Wan AI Image",
               "url": "https://create.wan.video/explore/image/generate?model=wan2.7-pro",
-              "banner": "https://img.alicdn.com/imgextra/i1/O1CN01WlNesT1EWvfm8mzKw_!!6000000000360-2-tps-600-315.png",
+              "banner": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnDg4wdqijB_5jBWOEjzij9zHMGQiW6SZcwQ&s",
               "description": "Wan 2.7 Pro / Wan 2.6 / 10 Credits Daily (Fast Credit Based, Slow Unlimited) / Sign-Up",
               "featured": false,
               "tags": [
@@ -2152,7 +2277,7 @@
               "id": "opensourcegen",
               "name": "OpenSourceGen",
               "url": "https://opensourcegen.com/",
-              "banner": "",
+              "banner": "https://opensourcegen.com/logo/og-image-1200x630.png",
               "description": "Hunyuan Image 3.0 / Z-Image Turbo / 1500 Credits Per Day / Sign-Up / [Discord](https://discord.gg/W4Svx2QhHb)",
               "featured": false,
               "tags": [
@@ -2227,7 +2352,7 @@
               "id": "meta-ai",
               "name": "Meta AI",
               "url": "https://www.meta.ai/",
-              "banner": "",
+              "banner": "https://www.meta.ai/images/meta-ai-orbit-xma.png",
               "description": "Generating + Editing / Unlimited / Meta Sign-Up",
               "featured": false,
               "tags": [
@@ -2243,7 +2368,7 @@
               "id": "modelscope-images",
               "name": "ModelScope Images",
               "url": "https://modelscope.ai/civision/imageGeneration",
-              "banner": "https://modelscope.ai//img.alicdn.com/imgextra/i4/O1CN01fvt4it25rEZU4Gjso_!!6000000007579-2-tps-128-128.png",
+              "banner": "https://cdn.modelscope.ai/social-thumbnails/studios/Qwen/Qwen-Image-2.0-pro.png",
               "description": "Qwen Image Edit / Z-Image Turbo / 100 Credits Daily / Model Cost Varies / [Note](https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/modelscope.md)",
               "featured": false,
               "tags": [
@@ -2302,7 +2427,7 @@
               "id": "mai-playground",
               "name": "⁠MAI Playground",
               "url": "https://playground.microsoft.ai/chat",
-              "banner": "",
+              "banner": "https://playground.microsoft.ai/images/social.png",
               "description": "MAI-Image-2 / 10 Daily / Sign-Up",
               "featured": false,
               "tags": [
@@ -2390,21 +2515,6 @@
               "icon": "https://www.google.com/s2/favicons?domain=huggingface.co&sz=128"
             },
             {
-              "id": "genie",
-              "name": "Genie",
-              "url": "https://lumalabs.ai/genie",
-              "banner": "",
-              "description": "[Discord](https://discord.com/invite/ASbS3EykXm), [Shap-e](https://github.com/openai/shap-e), [Stable Dreamfusion](https://github.com/ashawkey/stable-dreamfusion) or [threestudio](https://github.com/threestudio-project/threestudio) / [Colab](https://colab.research.google.com/github/threestudio-project/threestudio/blob/main/threestudio.ipynb) / [Discord](https://discord.gg/ejer2MAB8N) - 3D Image Generators",
-              "featured": false,
-              "tags": [
-                "open-source"
-              ],
-              "isPaid": false,
-              "isOpenSource": true,
-              "addedAt": "2025-05-26",
-              "icon": "https://www.google.com/s2/favicons?domain=lumalabs.ai&sz=128"
-            },
-            {
               "id": "interactive-scenes",
               "name": "Interactive Scenes",
               "url": "https://lumalabs.ai/interactive-scenes",
@@ -2442,7 +2552,7 @@
               "id": "stability-matrix",
               "name": "Stability Matrix",
               "url": "https://lykos.ai/",
-              "banner": "",
+              "banner": "https://cdn.lykos.ai/static/lykos-logo-wordmark-opt.svg",
               "description": "[Discord](https://discord.com/invite/TUrgfECxHz) / [GitHub](https://github.com/LykosAI/StabilityMatrix)",
               "featured": true,
               "tags": [
@@ -2466,7 +2576,7 @@
               "isPaid": false,
               "isOpenSource": true,
               "addedAt": "2025-05-26",
-              "icon": "https://www.google.com/s2/favicons?domain=invoke-ai.github.io&sz=128"
+              "icon": "https://invoke.ai/favicon.svg"
             },
             {
               "id": "comfyui",
@@ -2571,13 +2681,13 @@
               "isPaid": false,
               "isOpenSource": true,
               "addedAt": "2025-05-26",
-              "icon": "https://www.google.com/s2/favicons?domain=easydiffusion.github.io&sz=128"
+              "icon": "https://easydiffusion.github.io/img/logo.png"
             },
             {
               "id": "makeayo",
               "name": "Makeayo",
               "url": "https://makeayo.com",
-              "banner": "",
+              "banner": "https://res.cloudinary.com/heekokixs/image/upload/v1686505654/DesktopDiffusion/opengraph/makeayo_opengraph.jpg",
               "description": "[Discord](https://discord.gg/FbdSxdeV8m)",
               "featured": false,
               "tags": [],
@@ -2619,8 +2729,8 @@
             {
               "id": "sygil-webui",
               "name": "Sygil WebUI",
-              "url": "https://sygil-dev.github.io/sygil-webui/",
-              "banner": "",
+              "url": "https://github.com/Sygil-Dev/sygil-webui",
+              "banner": "https://opengraph.githubassets.com/8ba5717b15749693158d1293b6ca49a9082561475fc4ab9bc9f47769d546fcc4/Sygil-Dev/sygil-webui",
               "description": "[Colab](https://colab.research.google.com/github/Sygil-Dev/sygil-webui/blob/main/Web_based_UI_for_Stable_Diffusion_colab.ipynb) / [Discord](https://discord.com/invite/ttM8Tm6wge) / [GitHub](https://github.com/Sygil-Dev/sygil-webui)",
               "featured": false,
               "tags": [
@@ -2629,13 +2739,13 @@
               "isPaid": false,
               "isOpenSource": true,
               "addedAt": "2025-05-26",
-              "icon": "https://www.google.com/s2/favicons?domain=sygil-dev.github.io&sz=128"
+              "icon": "https://www.google.com/s2/favicons?domain=github.com/Sygil-Dev/sygil-webui&sz=128"
             },
             {
               "id": "radiata",
               "name": "Radiata",
               "url": "https://ddpn08.github.io/Radiata/en/",
-              "banner": "",
+              "banner": "https://ddpn08.github.io/Radiata/assets/readme-top.1b6ade0b.png",
               "description": "",
               "featured": false,
               "tags": [],
@@ -2737,19 +2847,6 @@
               "icon": "https://www.google.com/s2/favicons?domain=civitai.com&sz=128"
             },
             {
-              "id": "prompy",
-              "name": "⁠Prompy",
-              "url": "https://www.prompy.me/",
-              "banner": "https://prompy.me/og-image.png",
-              "description": "🌐  or [promptoMANIA](https://promptomania.com/) - Prompt Indexes",
-              "featured": false,
-              "tags": [],
-              "isPaid": false,
-              "isOpenSource": false,
-              "addedAt": "2025-05-26",
-              "icon": "https://www.google.com/s2/favicons?domain=www.prompy.me&sz=128"
-            },
-            {
               "id": "a-travelers-guide-to-the-latent-space",
               "name": "A Traveler's Guide to the Latent Space",
               "url": "https://sweet-hall-e72.notion.site/A-Traveler-s-Guide-to-the-Latent-Space-85efba7e5e6a40e5bd3cae980f30235f",
@@ -2806,23 +2903,10 @@
               "icon": "https://www.google.com/s2/favicons?domain=stablehorde.net&sz=128"
             },
             {
-              "id": "iopaint",
-              "name": "IOPaint",
-              "url": "https://www.iopaint.com/",
-              "banner": "",
-              "description": "Image Fill / Item Removal / [Colab](https://colab.research.google.com/drive/1TKVlDZiE3MIZnAUMpv2t_S4hLr6TUY1d?usp=sharing)",
-              "featured": false,
-              "tags": [],
-              "isPaid": false,
-              "isOpenSource": false,
-              "addedAt": "2025-05-26",
-              "icon": "https://www.google.com/s2/favicons?domain=www.iopaint.com&sz=128"
-            },
-            {
               "id": "generative-ai-for-beginners",
               "name": "Generative AI for Beginners",
               "url": "https://microsoft.github.io/generative-ai-for-beginners/",
-              "banner": "",
+              "banner": "https://microsoft.github.io/generative-ai-for-beginners/images/repo-thumbnailv4-fixed.png?WT.mc_id=academic-105485-koreyst",
               "description": "Generative AI Guides",
               "featured": false,
               "tags": [],
@@ -2861,7 +2945,7 @@
               "id": "sonauto",
               "name": "Sonauto",
               "url": "https://sonauto.ai/",
-              "banner": "",
+              "banner": "https://play-lh.googleusercontent.com/-JB9ObMx_T8XMuH9toB1CgBsaTpP2Xwm1pwp7oc1DAx-PPAimpxgI5jnHOlSnIU5S6o05Kllm9X7w6eH3GyTzg=w416-h235-rw",
               "description": "Unlimited / [Discord](https://discord.gg/pfXar3ChH8)",
               "featured": false,
               "tags": [
@@ -2917,7 +3001,7 @@
               "id": "stable-audio",
               "name": "Stable Audio",
               "url": "https://www.stableaudio.com/",
-              "banner": "./images/social.jpg",
+              "banner": "https://www.stableaudio.com/images/social.jpg",
               "description": "10 Monthly / [Discord](https://discord.com/invite/stablediffusion)",
               "featured": false,
               "tags": [],
@@ -2930,7 +3014,7 @@
               "id": "musicgen",
               "name": "MusicGen",
               "url": "https://github.com/facebookresearch/audiocraft/blob/main/docs/MUSICGEN.md",
-              "banner": "https://opengraph.githubassets.com/8c84b72898fc0252ffacdfb774e7b226324091fdf844b26ffcd5a17fad9acac3/facebookresearch/audiocraft",
+              "banner": "https://opengraph.githubassets.com/69274bf8fdb142f937cadba3deabe2bb344ff70b3c80a021bc0ef48ec60c7d39/facebookresearch/audiocraft",
               "description": "No Sign-Up / [Colab](https://colab.research.google.com/drive/1ECmNEoXk8kvnLEMBMF2LY82E7XmIG4yu) / [Limits](https://github.com/fmhy/edit/blob/main/docs/.vitepress/notes/hugging-face-warning.md)",
               "featured": false,
               "tags": [
@@ -3148,7 +3232,7 @@
               "id": "audiblez",
               "name": "Audiblez",
               "url": "https://github.com/santinic/audiblez",
-              "banner": "https://opengraph.githubassets.com/3079a891f93e1c1c60ea7858f4a7e813d8a04d5314c1facced9aedf8ba321fc7/santinic/audiblez",
+              "banner": "https://opengraph.githubassets.com/bc6fc1fa078b1cb83d424c78bcc96e75380c51ba912423d6267e4c95c2fd69b1/santinic/audiblez",
               "description": ", [Ebook2Audiobook](https://github.com/DrewThomasson/ebook2audiobook) / [2](https://huggingface.co/spaces/drewThomasson/ebook2audiobook), [ElevenReader](https://elevenreader.io/), [⁠Paper2Audio](https://www.paper2audio.com/) or [ReadWise](https://readwise.io/read) (reset trial) - Convert Books / Documents to Audiobooks",
               "featured": false,
               "tags": [
@@ -3170,7 +3254,7 @@
               "isPaid": false,
               "isOpenSource": false,
               "addedAt": "2025-05-26",
-              "icon": "https://www.google.com/s2/favicons?domain=illuminate.google.com&sz=128"
+              "icon": "https://www.google.com/s2/favicons?domain=google.com&sz=128"
             },
             {
               "id": "elevenlabs",
@@ -3205,7 +3289,7 @@
               "id": "google-speech-gen",
               "name": "Google Speech Gen",
               "url": "https://aistudio.google.com/generate-speech",
-              "banner": "",
+              "banner": "https://ai.google.dev/static/site-assets/images/share-ais-513315318.png",
               "description": "",
               "featured": false,
               "tags": [],
@@ -3343,7 +3427,7 @@
               "id": "kikivoice",
               "name": "⁠KikiVoice",
               "url": "https://kikivoice.ai/",
-              "banner": "",
+              "banner": "https://kikivoice.ai/static/cdn/img/logo/kikvoice_logo2.png",
               "description": "No Sign-Up",
               "featured": false,
               "tags": [
@@ -3373,7 +3457,7 @@
               "id": "lazypy",
               "name": "LazyPy",
               "url": "https://lazypy.ro/tts/",
-              "banner": "",
+              "banner": "https://opengraph.githubassets.com/7d385754d7f109f3516617a1901132eff1f9046262de304ecb6bdcc2c756f133/chrisjp/tts",
               "description": "No Sign-Up / [GitHub](https://github.com/chrisjp/tts)",
               "featured": false,
               "tags": [
@@ -3420,7 +3504,7 @@
               "id": "speechma",
               "name": "⁠Speechma",
               "url": "https://speechma.com/",
-              "banner": "https://speechma.com/assets/images/og-image.jpg",
+              "banner": "",
               "description": "No Sign-Up",
               "featured": false,
               "tags": [
@@ -3552,7 +3636,7 @@
               "id": "audio-webui",
               "name": "Audio-WebUI",
               "url": "https://github.com/gitmylo/audio-webui",
-              "banner": "https://opengraph.githubassets.com/f23fdbbea27814d574ab4f2085c33464bc6f83d655297e8338a72824b61e0dcb/gitmylo/audio-webui",
+              "banner": "https://opengraph.githubassets.com/cc249e11f68c150b98880cb4dd5c571a1948c752978d5b12f3863fccddceb383/gitmylo/audio-webui",
               "description": "No Sign-Up / [Colab](https://colab.research.google.com/github/gitmylo/audio-webui/blob/master/audio_webui_colab.ipynb) / [Discord](https://discord.gg/NB86C3Szkg)",
               "featured": false,
               "tags": [
@@ -3611,7 +3695,7 @@
               "id": "freetts",
               "name": "FreeTTS",
               "url": "https://freetts.com/",
-              "banner": "",
+              "banner": "https://freetts.com/_next/image?url=%2Fimages%2Faudio-cutter-2.webp&w=3840&q=75",
               "description": "",
               "featured": false,
               "tags": [
@@ -3722,7 +3806,7 @@
               "id": "voice-changer",
               "name": "Voice Changer",
               "url": "https://github.com/w-okada/voice-changer/blob/master/docs_i18n/README_en.md",
-              "banner": "",
+              "banner": "https://opengraph.githubassets.com/46d9a9046514dbb92f4e3fec25573f3cbefe00b4c8e01e08ee645587d535e698/w-okada/voice-changer",
               "description": "Real-Time Voice Changer (W-Okada) / [Guide](https://rentry.co/VoiceChangerGuide) / [Colab](https://colab.research.google.com/github/w-okada/voice-changer/blob/master/Realtime_Voice_Changer_on_Colab.ipynb)",
               "featured": true,
               "tags": [
@@ -3839,21 +3923,6 @@
               "icon": "https://www.google.com/s2/favicons?domain=www.bandlab.com&sz=128"
             },
             {
-              "id": "mdx23",
-              "name": "MDX23",
-              "url": "https://github.com/jarredou/MVSEP-MDX23-Colab_v2",
-              "banner": "https://opengraph.githubassets.com/c0ee4901777ef692eb3a584b19fdf90c69b0dea01bc4b0e46adbbbec57f7434b/jarredou/MVSEP-MDX23-Colab_v2",
-              "description": "",
-              "featured": false,
-              "tags": [
-                "open-source"
-              ],
-              "isPaid": false,
-              "isOpenSource": true,
-              "addedAt": "2025-05-26",
-              "icon": "https://www.google.com/s2/favicons?domain=github.com&sz=128"
-            },
-            {
               "id": "music-source-separation",
               "name": "Music-Source-Separation",
               "url": "https://github.com/jarredou/Music-Source-Separation-Training-Colab-Inference",
@@ -3913,7 +3982,7 @@
               "id": "remove-vocals",
               "name": "Remove Vocals",
               "url": "https://www.remove-vocals.com/",
-              "banner": "",
+              "banner": "https://www.remove-vocals.com/static/remove_vocals_thumbnail.png",
               "description": ", [2](https://www.acapella-extractor.com/)",
               "featured": false,
               "tags": [],
@@ -4020,21 +4089,6 @@
               "icon": "https://www.google.com/s2/favicons?domain=github.com&sz=128"
             },
             {
-              "id": "ai-api-tools",
-              "name": "AI API Tools",
-              "url": "https://www.reddit.com/r/FREEMEDIAHECKYEAH/wiki/dev-tools/#wiki_.25B7_api_tools",
-              "banner": "",
-              "description": "↪️",
-              "featured": false,
-              "tags": [
-                "free"
-              ],
-              "isPaid": false,
-              "isOpenSource": false,
-              "addedAt": "2025-05-26",
-              "icon": "https://www.google.com/s2/favicons?domain=www.reddit.com&sz=128"
-            },
-            {
               "id": "tldraw-computer",
               "name": "tldraw computer",
               "url": "https://computer.tldraw.com/",
@@ -4083,7 +4137,7 @@
               "id": "lightsession",
               "name": "⁠LightSession",
               "url": "https://github.com/11me/light-session",
-              "banner": "",
+              "banner": "https://opengraph.githubassets.com/cf0d2b411ba0228981545d2ae73d8e30e13e0354c58201b69c913bfb3b3a19bd/11me/light-session",
               "description": "Fix ChatGPT Lag",
               "featured": false,
               "tags": [
@@ -4249,7 +4303,7 @@
               "id": "leaked-prompts",
               "name": "Leaked Prompts",
               "url": "https://github.com/linexjlin/GPTs",
-              "banner": "https://opengraph.githubassets.com/5fc91d6c7483f8deff9e2b3317fea93dc2ec9bf3e89d88c5610e6fb34a3a116f/linexjlin/GPTs",
+              "banner": "https://opengraph.githubassets.com/604eda3fe780701b03a2e104993b08d721c1324815986ef6cb62e42a38854237/linexjlin/GPTs",
               "description": "Prompt Directory",
               "featured": true,
               "tags": [
@@ -4674,7 +4728,7 @@
               "id": "openlm-arena",
               "name": "OpenLM Arena",
               "url": "https://openlm.ai/chatbot-arena/",
-              "banner": "https://openlm.ai/assets/openlm-logo.png",
+              "banner": "https://images.prismic.io/contrary-research/aMA2X2GNHVfTO1vZ_LMArena_Cover.png",
               "description": "Chatbot Leaderboard",
               "featured": false,
               "tags": [],

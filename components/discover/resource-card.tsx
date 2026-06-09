@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import { cn } from "@/lib/utils";
 import { motion } from "framer-motion";
 import Image from "next/image";
@@ -18,6 +19,9 @@ interface Resource {
 }
 
 export function ResourceCard({ resource }: { resource: Resource }) {
+	const [isSpecialRatio, setIsSpecialRatio] = useState(false);
+	const [hasError, setHasError] = useState(false);
+
 	const getFaviconUrl = (url: string) => {
 		try {
 			const domain = new URL(url).hostname;
@@ -27,7 +31,21 @@ export function ResourceCard({ resource }: { resource: Resource }) {
 		}
 	};
 
+	const getBannerUrl = (bannerUrl?: string) => {
+		if (!bannerUrl) return "";
+		if (bannerUrl.startsWith("http")) {
+			return `/api/og-proxy?url=${encodeURIComponent(bannerUrl)}`;
+		}
+		return bannerUrl;
+	};
+
 	const favicon = resource.icon || getFaviconUrl(resource.url);
+	const bannerUrl = getBannerUrl(resource.banner);
+
+	const hasListTag = resource.tags?.some(tag =>
+		tag.toLowerCase() === "list" ||
+		tag.toLowerCase().split(",").map(t => t.trim()).includes("list")
+	);
 
 	return (
 		<motion.a
@@ -35,6 +53,10 @@ export function ResourceCard({ resource }: { resource: Resource }) {
 			href={resource.url}
 			target="_blank"
 			rel="noopener noreferrer"
+			initial={{ opacity: 0, y: 8, scale: 0.98 }}
+			whileInView={{ opacity: 1, y: 0, scale: 1 }}
+			viewport={{ once: true, margin: "-10px" }}
+			transition={{ duration: 0.3, ease: "easeOut" }}
 			whileHover={{
 				y: -2,
 				transition: { duration: 0.2, ease: "easeOut" },
@@ -44,25 +66,78 @@ export function ResourceCard({ resource }: { resource: Resource }) {
 			<div
 				className={cn(
 					"w-full aspect-[16/9] flex items-center justify-center bg-foreground/5 relative overflow-hidden",
-					!resource.banner && "p-6"
+					(!resource.banner || hasError) && "p-6"
 				)}
 			>
-				{resource.banner ? (
-					<Image
-						src={resource.banner}
-						alt={resource.name}
-						fill
-						loading="eager"
-						className="object-cover"
-						unoptimized // Banners might be external URLs that change, or from domains not configured in next.config
-						
-					/>
+				{hasListTag && (
+					<div className="absolute top-2 right-2 z-10 flex items-center gap-1.5 px-2 py-0.5 rounded bg-black/75 dark:bg-white/10 backdrop-blur-md border border-white/20 text-white dark:text-neutral-200 text-[10px] font-semibold uppercase tracking-wider select-none shadow-md">
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							width="1.1em"
+							height="1.1em"
+							viewBox="0 0 24 24"
+							fill="none"
+							stroke="currentColor"
+							strokeWidth="2.5"
+							strokeLinecap="round"
+							strokeLinejoin="round"
+							className="w-3 h-3 text-white dark:text-neutral-200"
+						>
+							<line x1="8" y1="6" x2="21" y2="6" />
+							<line x1="8" y1="12" x2="21" y2="12" />
+							<line x1="8" y1="18" x2="21" y2="18" />
+							<line x1="3" y1="6" x2="3.01" y2="6" />
+							<line x1="3" y1="12" x2="3.01" y2="12" />
+							<line x1="3" y1="18" x2="3.01" y2="18" />
+						</svg>
+						List
+					</div>
+				)}
+				{resource.banner && !hasError ? (
+					<>
+						{isSpecialRatio && (
+							<Image
+								src={bannerUrl}
+								alt=""
+								fill
+								className="object-cover blur-md opacity-30 scale-105 select-none pointer-events-none"
+								unoptimized
+								onError={() => setHasError(true)}
+							/>
+						)}
+						<Image
+							src={bannerUrl}
+							alt={resource.name}
+							fill
+							loading="lazy"
+							className={cn(
+								"object-cover transition-all duration-300",
+								isSpecialRatio && "object-contain"
+							)}
+							unoptimized // Banners might be external URLs that change, or from domains not configured in next.config
+							onError={() => setHasError(true)}
+							onLoad={(e) => {
+								const img = e.currentTarget;
+								if (img.naturalWidth && img.naturalHeight) {
+									const ratio = img.naturalWidth / img.naturalHeight;
+									// 3:4 is 0.75, 1:1 is 1.0
+									if (
+										(ratio >= 0.7 && ratio <= 0.8) || // 3:4 ratio with tolerance
+										(ratio >= 0.95 && ratio <= 1.05)   // 1:1 ratio with tolerance
+									) {
+										setIsSpecialRatio(true);
+									}
+								}
+							}}
+						/>
+					</>
 				) : (
 					<div className="flex flex-col items-center justify-center gap-2">
 						{favicon ? (
 							<img
 								src={favicon}
 								alt=""
+								loading="lazy"
 								className="w-8 h-8 rounded-md opacity-80"
 								onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
 							/>
@@ -83,6 +158,7 @@ export function ResourceCard({ resource }: { resource: Resource }) {
 						<img
 							src={favicon}
 							alt=""
+							loading="lazy"
 							className="w-4 h-4 rounded shrink-0 opacity-80 group-hover/card:opacity-100 transition-opacity"
 							onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }}
 						/>

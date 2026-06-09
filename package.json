@@ -5,7 +5,6 @@
   "private": true,
   "scripts": {
     "postinstall": "fumadocs-mdx",
-    "predev": "node scripts/sync-beta-content.ts",
     "dev": "next dev --port 3000",
     "prebuild": "node scripts/sync-beta-content.ts",
     "build": "next build",
