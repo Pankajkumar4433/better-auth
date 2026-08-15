@@ -105,15 +105,6 @@ export default function LogoContextMenu({ logo }: LogoContextMenuProps) {
 					<Download />
 					Download Brand Assets
 				</button>
-				<div className="-mx-1 my-1 h-px bg-border" />
-				<Link
-					href="/brand"
-					onClick={() => setOpen(false)}
-					className={itemClassName}
-				>
-					<Palette />
-					Visit Brand Guidelines
-				</Link>
 			</PopoverContent>
 		</Popover>
 	);

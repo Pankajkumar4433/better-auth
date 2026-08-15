@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { blogs, source } from "@/lib/source";
+import { blogs } from "@/lib/source";
 
 const BASE_URL = "https://better-auth.com";
 
@@ -35,25 +35,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 			changeFrequency: "weekly",
 			priority: 0.8,
 		},
-		{
-			url: `${BASE_URL}/pricing`,
-			lastModified: new Date(),
-			changeFrequency: "weekly",
-			priority: 0.8,
-		},
 	];
-
-	const docPages: MetadataRoute.Sitemap = await Promise.all(
-		source.getPages().map(async (page) => {
-			const { lastModified } = await page.data.load();
-			return {
-				url: `${BASE_URL}${page.url}`,
-				lastModified: lastModified ? new Date(lastModified) : new Date(),
-				changeFrequency: "weekly",
-				priority: 0.7,
-			};
-		}),
-	);
 
 	const blogPages: MetadataRoute.Sitemap = blogs.getPages().map((page) => ({
 		url: `${BASE_URL}${page.url.replace("/blogs/", "/blog/")}`,
@@ -62,5 +44,5 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 		priority: 0.6,
 	}));
 
-	return [...basePages, ...docPages, ...blogPages];
+	return [...basePages, ...blogPages];
 }

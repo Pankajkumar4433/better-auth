@@ -35,24 +35,6 @@ const nextConfig = {
 				permanent: true,
 			},
 			{
-				source: "/docs",
-				destination: "/docs/introduction",
-				permanent: false,
-			},
-			// Legacy query string based redirects
-			{
-				source: "/products",
-				has: [{ type: "query", key: "tab", value: "framework" }],
-				destination: "/products/framework",
-				permanent: true,
-			},
-			{
-				source: "/products",
-				has: [{ type: "query", key: "tab", value: "infrastructure" }],
-				destination: "/products/infrastructure",
-				permanent: true,
-			},
-			{
 				source: "/terms",
 				destination: "/legal/terms",
 				permanent: true,
@@ -65,11 +47,6 @@ const nextConfig = {
 			{
 				source: "/docs/agent-tools/ask-ai",
 				destination: "/docs/ai-resources",
-				permanent: true,
-			},
-			{
-				source: "/docs/agent-tools/llms-txt",
-				destination: "/llms.txt",
 				permanent: true,
 			},
 			{

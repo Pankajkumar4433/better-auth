@@ -52,26 +52,6 @@ function EnterpriseHero() {
 					</p>
 				</div>
 
-				{/* CTA */}
-				<div className="flex items-center gap-3 pt-1">
-					<Link
-						href="/pricing"
-						className="inline-flex items-center gap-1.5 text-[12px] text-foreground/60 hover:text-foreground/80 font-mono uppercase tracking-wider transition-colors"
-					>
-						View Pricing
-						<svg
-							className="h-2.5 w-2.5 opacity-50"
-							viewBox="0 0 10 10"
-							fill="none"
-						>
-							<path
-								d="M1 9L9 1M9 1H3M9 1V7"
-								stroke="currentColor"
-								strokeWidth="1.2"
-							/>
-						</svg>
-					</Link>
-				</div>
 			</div>
 		</motion.div>
 	);
